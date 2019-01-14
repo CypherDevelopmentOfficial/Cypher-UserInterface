@@ -10,6 +10,7 @@
 import Foundation
 import UIKit
 import Accounts
+import Alamofire
 
 
 class LoginPage: UIViewController{
@@ -79,6 +80,14 @@ class ProfileViewController: UIViewController {
         let backButton = UIBarButtonItem(title: "", style:UIBarButtonItem.Style.plain, target: navigationController, action: nil)
         navigationItem.leftBarButtonItem = backButton
         
+        //// This is required to keep the data alive
+        let defaultValues = UserDefaults.standard
+        if let name = defaultValues.string(forKey: "username"){
+            //// setting the name to the label
+            labelUserName.text = name
+        } else {
+            ////send back to loginpage
+        }
         
     }
 
