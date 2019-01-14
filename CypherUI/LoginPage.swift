@@ -1,10 +1,10 @@
-//
-//  LoginPage.swift
-//  CypherUI
-//
-//  Created by Team CypherDevelopment Remote Desktop on 18/09/2018.
-//  Copyright © 2018 CyDev. All rights reserved.
-//
+////
+////  LoginPage.swift
+////  CypherUI
+////
+////  Created by Team CypherDevelopment Remote Desktop on 18/09/2018.
+////  Copyright © 2018 CyDev. All rights reserved.
+////
 
 
 import Foundation
@@ -16,7 +16,7 @@ class LoginPage: UIViewController{
 override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    let backButton = UIBarButtonItem(title: " ", style:UIBarButtonItem.Style.plain, target: navigationController, action: nil)
+    let backButton = UIBarButtonItem(title: "", style:UIBarButtonItem.Style.plain, target: navigationController, action: nil)
     navigationItem.leftBarButtonItem = backButton
     
     }
@@ -44,6 +44,28 @@ override func viewDidLoad() {
 }
 class ProfileViewController: UIViewController {
     
+    ////This is just a label to get to see your system knows you.
+    @IBOutlet weak var labelUserName: UILabel!
+    
+    //// This is the button. Dont mess with it unless you know what it does. <0/
+    @IBAction func buttonLogout(_ sender: UIButton) {
+        //// removing values from the Default List
+        UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
+        UserDefaults.standard.synchronize()
+        
+        //// the switch to the Login Screen
+        let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "LoginPage") as! LoginPage
+        self.navigationController?.pushViewController(loginViewController, animated: true)
+        self.dismiss(animated: false, completion: nil)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -51,7 +73,12 @@ class ProfileViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //// Seemed neccesary to note that I havent checked it too far since I wont be setting up the backend.
+        //// Sincerely John NemECis
+        let backButton = UIBarButtonItem(title: "", style:UIBarButtonItem.Style.plain, target: navigationController, action: nil)
+        navigationItem.leftBarButtonItem = backButton
+        
         
     }
 
