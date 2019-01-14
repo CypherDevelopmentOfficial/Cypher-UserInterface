@@ -274,10 +274,10 @@
             </objects>
             <point key="canvasLocation" x="4116" y="-1141.0794602698652"/>
         </scene>
-        <!--View Controller-->
+        <!--Login-->
         <scene sceneID="5cI-Gv-81m">
             <objects>
-                <viewController id="NSn-36-PIg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginPage" title="Login" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NSn-36-PIg" customClass="LoginPage" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2QM-m2-gOk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -287,7 +287,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jm8-NV-jSM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5102" y="-1045"/>
+            <point key="canvasLocation" x="5346" y="-1141"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DEF-uP-H9I">

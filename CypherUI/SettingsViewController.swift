@@ -33,13 +33,17 @@ func switchIsChanged (SwitchInstallment: UISwitch)
       //      switchState.text  = "UISwitch is ON"
       //      Don't bother, these were test lines. they didnt respond correctly.
       //      This should make certain that the installment shall be finished.
+            _ = "true"
+            // I also dont know how to make these modules really useful, so I hope my work wasnt futile, althoug it might be
             
 }       else {
     //    switchState.accessibilityLabel (String)
     //    Don't bother. these are test lines. they didnt work
     //    If this is disabled like here, the device should only respring if the user ASKS for a respring, or exits the app.
+            _ = "false"
+            
         }
-    
+        
 }
 
 
