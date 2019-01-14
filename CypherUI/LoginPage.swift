@@ -10,7 +10,7 @@
 import Foundation
 import UIKit
 import Accounts
-import Alamofire
+
 
 
 class LoginPage: UIViewController{
@@ -35,10 +35,10 @@ override func viewDidLoad() {
     @IBOutlet weak var textFieldPassword: UITextField!
     
     @IBAction func buttonLogin(_ sender: UIButton) {
-        let parameters: Parameters=[
-            "username":textFieldUserName.text!,
-            "password":textFieldPassword.text!
-        ]
+        //let parameters: Parameters=[
+        //    "username":textFieldUserName.text!,
+        //    "password":textFieldPassword.text!
+        //]
     }
     
     
