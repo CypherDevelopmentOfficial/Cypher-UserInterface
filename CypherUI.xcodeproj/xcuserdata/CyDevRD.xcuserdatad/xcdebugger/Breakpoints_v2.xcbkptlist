@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CypherUI/AppDelegate.swift"
+            timestampString = "564336101.9354089"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.AppDelegate.__allocating_init() -&gt; CypherUI.AppDelegate"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Desktop/CypherUI/CypherUI/AppDelegate.swift"
+                  timestampString = "564335887.975667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.AppDelegate.init() -&gt; CypherUI.AppDelegate"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Desktop/CypherUI/CypherUI/AppDelegate.swift"
+                  timestampString = "564335887.978007"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.AppDelegate.__deallocating_deinit"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Desktop/CypherUI/CypherUI/AppDelegate.swift"
+                  timestampString = "564335887.979987"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Desktop/CypherUI/CypherUI/AppDelegate.swift"
+                  timestampString = "564335887.9821399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

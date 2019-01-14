@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11B44E21A30AF500B15179 /* CustomSegue.swift */; };
+		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
+		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
+		BCAA905A21EBA43300660070 /* Purchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Purchases.swift */; };
+		BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BF821518254005163F0 /* AppDelegate.swift */; };
+		BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFA21518254005163F0 /* HomeViewController.swift */; };
+		BCBA0BFD21518254005163F0 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFC21518254005163F0 /* ThemesViewController.swift */; };
+		BCBA0C0021518254005163F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBA0BFE21518254005163F0 /* Main.storyboard */; };
+		BCBA0C0221518257005163F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBA0C0121518257005163F0 /* Assets.xcassets */; };
+		BCBA0C0521518257005163F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */; };
+		BCBA0C1021518257005163F0 /* CypherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C0F21518257005163F0 /* CypherUITests.swift */; };
+		BCBA0C1B21518257005163F0 /* CypherUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C1A21518257005163F0 /* CypherUIUITests.swift */; };
+		BCBA0C29215182B7005163F0 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C28215182B7005163F0 /* AppViewController.swift */; };
+		BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2A2151841B005163F0 /* TweakViewController.swift */; };
+		BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2D21518532005163F0 /* InstalledViewController.swift */; };
+		BCBA0C3021518681005163F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2F21518681005163F0 /* SettingsViewController.swift */; };
+		BCBA0C3421550312005163F0 /* PopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C3321550312005163F0 /* PopSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCBA0C0C21518257005163F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCBA0BED21518254005163F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCBA0BF421518254005163F0;
+			remoteInfo = CypherUI;
+		};
+		BCBA0C1721518257005163F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCBA0BED21518254005163F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCBA0BF421518254005163F0;
+			remoteInfo = CypherUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC11B44E21A30AF500B15179 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
+		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		BCAA905921EBA43300660070 /* Purchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchases.swift; sourceTree = "<group>"; };
+		BCBA0BF521518254005163F0 /* CypherUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBA0BF821518254005163F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCBA0BFA21518254005163F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BCBA0BFC21518254005163F0 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		BCBA0BFF21518254005163F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCBA0C0121518257005163F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCBA0C0421518257005163F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCBA0C0621518257005163F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBA0C0B21518257005163F0 /* CypherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBA0C0F21518257005163F0 /* CypherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherUITests.swift; sourceTree = "<group>"; };
+		BCBA0C1121518257005163F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBA0C1621518257005163F0 /* CypherUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypherUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBA0C1A21518257005163F0 /* CypherUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherUIUITests.swift; sourceTree = "<group>"; };
+		BCBA0C1C21518257005163F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBA0C28215182B7005163F0 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		BCBA0C2A2151841B005163F0 /* TweakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakViewController.swift; sourceTree = "<group>"; };
+		BCBA0C2D21518532005163F0 /* InstalledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledViewController.swift; sourceTree = "<group>"; };
+		BCBA0C2F21518681005163F0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BCBA0C3121550311005163F0 /* CypherUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CypherUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCBA0C3221550311005163F0 /* PopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopSegue.h; path = ../../../Documents/PopSegue.h; sourceTree = "<group>"; };
+		BCBA0C3321550312005163F0 /* PopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopSegue.m; path = ../../../Documents/PopSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCBA0BF221518254005163F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBA0C0821518257005163F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBA0C1321518257005163F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAA905621EBA35000660070 /* InstalledUnderGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BCAA905721EBA36F00660070 /* LoginPage.swift */,
+				BCAA905921EBA43300660070 /* Purchases.swift */,
+			);
+			name = InstalledUnderGroup;
+			sourceTree = "<group>";
+		};
+		BCBA0BEC21518254005163F0 = {
+			isa = PBXGroup;
+			children = (
+				BCBA0BF721518254005163F0 /* CypherUI */,
+				BCBA0C0E21518257005163F0 /* CypherUITests */,
+				BCBA0C1921518257005163F0 /* CypherUIUITests */,
+				BCBA0BF621518254005163F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCBA0BF621518254005163F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCBA0BF521518254005163F0 /* CypherUI.app */,
+				BCBA0C0B21518257005163F0 /* CypherUITests.xctest */,
+				BCBA0C1621518257005163F0 /* CypherUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCBA0BF721518254005163F0 /* CypherUI */ = {
+			isa = PBXGroup;
+			children = (
+				BCBA0BF821518254005163F0 /* AppDelegate.swift */,
+				BC55A95E2199DAF9001166CA /* BackBoardUI.swift */,
+				BC11B44E21A30AF500B15179 /* CustomSegue.swift */,
+				BCBA0C2C215184D2005163F0 /* BasicViewControllers */,
+				BCBA0BFE21518254005163F0 /* Main.storyboard */,
+				BCBA0C3221550311005163F0 /* PopSegue.h */,
+				BCBA0C3321550312005163F0 /* PopSegue.m */,
+				BCBA0C0121518257005163F0 /* Assets.xcassets */,
+				BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */,
+				BCBA0C0621518257005163F0 /* Info.plist */,
+				BCBA0C3121550311005163F0 /* CypherUI-Bridging-Header.h */,
+			);
+			path = CypherUI;
+			sourceTree = "<group>";
+		};
+		BCBA0C0E21518257005163F0 /* CypherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCBA0C0F21518257005163F0 /* CypherUITests.swift */,
+				BCBA0C1121518257005163F0 /* Info.plist */,
+			);
+			path = CypherUITests;
+			sourceTree = "<group>";
+		};
+		BCBA0C1921518257005163F0 /* CypherUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCBA0C1A21518257005163F0 /* CypherUIUITests.swift */,
+				BCBA0C1C21518257005163F0 /* Info.plist */,
+			);
+			path = CypherUIUITests;
+			sourceTree = "<group>";
+		};
+		BCBA0C2C215184D2005163F0 /* BasicViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCBA0BFA21518254005163F0 /* HomeViewController.swift */,
+				BCBA0C2A2151841B005163F0 /* TweakViewController.swift */,
+				BCBA0C28215182B7005163F0 /* AppViewController.swift */,
+				BCBA0BFC21518254005163F0 /* ThemesViewController.swift */,
+				BCBA0C2F21518681005163F0 /* SettingsViewController.swift */,
+				BCBA0C2D21518532005163F0 /* InstalledViewController.swift */,
+				BCAA905621EBA35000660070 /* InstalledUnderGroup */,
+			);
+			name = BasicViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCBA0BF421518254005163F0 /* CypherUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBA0C1F21518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUI" */;
+			buildPhases = (
+				BCBA0BF121518254005163F0 /* Sources */,
+				BCBA0BF221518254005163F0 /* Frameworks */,
+				BCBA0BF321518254005163F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CypherUI;
+			productName = CypherUI;
+			productReference = BCBA0BF521518254005163F0 /* CypherUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCBA0C0A21518257005163F0 /* CypherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBA0C2221518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUITests" */;
+			buildPhases = (
+				BCBA0C0721518257005163F0 /* Sources */,
+				BCBA0C0821518257005163F0 /* Frameworks */,
+				BCBA0C0921518257005163F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCBA0C0D21518257005163F0 /* PBXTargetDependency */,
+			);
+			name = CypherUITests;
+			productName = CypherUITests;
+			productReference = BCBA0C0B21518257005163F0 /* CypherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCBA0C1521518257005163F0 /* CypherUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCBA0C2521518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUIUITests" */;
+			buildPhases = (
+				BCBA0C1221518257005163F0 /* Sources */,
+				BCBA0C1321518257005163F0 /* Frameworks */,
+				BCBA0C1421518257005163F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCBA0C1821518257005163F0 /* PBXTargetDependency */,
+			);
+			name = CypherUIUITests;
+			productName = CypherUIUITests;
+			productReference = BCBA0C1621518257005163F0 /* CypherUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCBA0BED21518254005163F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = CyDev;
+				TargetAttributes = {
+					BCBA0BF421518254005163F0 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					BCBA0C0A21518257005163F0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BCBA0BF421518254005163F0;
+					};
+					BCBA0C1521518257005163F0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BCBA0BF421518254005163F0;
+					};
+				};
+			};
+			buildConfigurationList = BCBA0BF021518254005163F0 /* Build configuration list for PBXProject "CypherUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCBA0BEC21518254005163F0;
+			productRefGroup = BCBA0BF621518254005163F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCBA0BF421518254005163F0 /* CypherUI */,
+				BCBA0C0A21518257005163F0 /* CypherUITests */,
+				BCBA0C1521518257005163F0 /* CypherUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCBA0BF321518254005163F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBA0C0521518257005163F0 /* LaunchScreen.storyboard in Resources */,
+				BCBA0C0221518257005163F0 /* Assets.xcassets in Resources */,
+				BCBA0C0021518254005163F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBA0C0921518257005163F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBA0C1421518257005163F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCBA0BF121518254005163F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBA0BFD21518254005163F0 /* ThemesViewController.swift in Sources */,
+				BCBA0C3421550312005163F0 /* PopSegue.m in Sources */,
+				BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */,
+				BCBA0C29215182B7005163F0 /* AppViewController.swift in Sources */,
+				BCBA0C3021518681005163F0 /* SettingsViewController.swift in Sources */,
+				BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */,
+				BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */,
+				BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */,
+				BCAA905A21EBA43300660070 /* Purchases.swift in Sources */,
+				BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */,
+				BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */,
+				BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBA0C0721518257005163F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBA0C1021518257005163F0 /* CypherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCBA0C1221518257005163F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBA0C1B21518257005163F0 /* CypherUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCBA0C0D21518257005163F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCBA0BF421518254005163F0 /* CypherUI */;
+			targetProxy = BCBA0C0C21518257005163F0 /* PBXContainerItemProxy */;
+		};
+		BCBA0C1821518257005163F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCBA0BF421518254005163F0 /* CypherUI */;
+			targetProxy = BCBA0C1721518257005163F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCBA0BFE21518254005163F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBA0BFF21518254005163F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCBA0C0421518257005163F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCBA0C1D21518257005163F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCBA0C1E21518257005163F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCBA0C2021518257005163F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CypherUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCBA0C2121518257005163F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CypherUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCBA0C2321518257005163F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CypherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypherUI.app/CypherUI";
+			};
+			name = Debug;
+		};
+		BCBA0C2421518257005163F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CypherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypherUI.app/CypherUI";
+			};
+			name = Release;
+		};
+		BCBA0C2621518257005163F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CypherUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CypherUI;
+			};
+			name = Debug;
+		};
+		BCBA0C2721518257005163F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CypherUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CypherUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCBA0BF021518254005163F0 /* Build configuration list for PBXProject "CypherUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBA0C1D21518257005163F0 /* Debug */,
+				BCBA0C1E21518257005163F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBA0C1F21518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBA0C2021518257005163F0 /* Debug */,
+				BCBA0C2121518257005163F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBA0C2221518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBA0C2321518257005163F0 /* Debug */,
+				BCBA0C2421518257005163F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCBA0C2521518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCBA0C2621518257005163F0 /* Debug */,
+				BCBA0C2721518257005163F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCBA0BED21518254005163F0 /* Project object */;
+}
