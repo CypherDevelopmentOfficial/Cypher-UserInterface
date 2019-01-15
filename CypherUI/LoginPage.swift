@@ -17,7 +17,7 @@ class LoginPage: UIViewController{
 override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    let backButton = UIBarButtonItem(title: "", style:UIBarButtonItem.Style.plain, target: navigationController, action: nil)
+    let backButton = UIBarButtonItem(title: "Back", style:UIBarButtonItem.Style.plain, target: navigationController, action: nil)
     navigationItem.leftBarButtonItem = backButton
     
     }
