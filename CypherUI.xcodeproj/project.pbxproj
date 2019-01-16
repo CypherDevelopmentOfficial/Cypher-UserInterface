@@ -10,7 +10,7 @@
 		BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11B44E21A30AF500B15179 /* CustomSegue.swift */; };
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
 		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
-		BCAA905A21EBA43300660070 /* Purchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Purchases.swift */; };
+		BCAA905A21EBA43300660070 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Repos.swift */; };
 		BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BF821518254005163F0 /* AppDelegate.swift */; };
 		BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFA21518254005163F0 /* HomeViewController.swift */; };
 		BCBA0BFD21518254005163F0 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFC21518254005163F0 /* ThemesViewController.swift */; };
@@ -47,7 +47,7 @@
 		BC11B44E21A30AF500B15179 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
 		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
-		BCAA905921EBA43300660070 /* Purchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchases.swift; sourceTree = "<group>"; };
+		BCAA905921EBA43300660070 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		BCBA0BF521518254005163F0 /* CypherUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBA0BF821518254005163F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCBA0BFA21518254005163F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BCAA905721EBA36F00660070 /* LoginPage.swift */,
-				BCAA905921EBA43300660070 /* Purchases.swift */,
+				BCAA905921EBA43300660070 /* Repos.swift */,
 			);
 			name = InstalledUnderGroup;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 				BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */,
 				BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */,
 				BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */,
-				BCAA905A21EBA43300660070 /* Purchases.swift in Sources */,
+				BCAA905A21EBA43300660070 /* Repos.swift in Sources */,
 				BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */,
 				BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */,
 				BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */,
