@@ -39,7 +39,7 @@
                     <navigationItem key="navigationItem" title="Home" id="YVz-pm-6cR">
                         <barButtonItem key="rightBarButtonItem" title="settings" id="b3A-iA-tfX">
                             <connections>
-                                <segue destination="H5U-pL-64n" kind="push" id="3R5-99-gHu"/>
+                                <segue destination="H5U-pL-64n" kind="show" id="3R5-99-gHu"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -519,6 +519,11 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Themes" id="i4X-UL-QxX">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="Aqg-Ug-DBo">
+                            <connections>
+                                <segue destination="lQc-Qz-kGq" kind="show" id="fUU-8Y-28k"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="vuG-5N-YfM">
                             <connections>
                                 <segue destination="H5U-pL-64n" kind="show" id="NWc-57-EQu"/>
@@ -541,6 +546,11 @@
                         <viewLayoutGuide key="safeArea" id="naM-8I-RYZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Applications" id="GjJ-zy-cvF">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="ri7-fJ-1pD">
+                            <connections>
+                                <segue destination="jbH-Ua-tCm" kind="show" id="Qx6-HR-7N2"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="cpr-cZ-ncr">
                             <connections>
                                 <segue destination="H5U-pL-64n" kind="show" id="K9P-I0-MwT"/>
@@ -563,6 +573,11 @@
                         <viewLayoutGuide key="safeArea" id="46c-zC-eR5"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tweaks" id="WTP-HK-wX5">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="alc-SN-e9N">
+                            <connections>
+                                <segue destination="KJO-M2-ssx" kind="show" id="rKf-gG-loz"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="yl6-86-9BI">
                             <connections>
                                 <segue destination="H5U-pL-64n" kind="show" id="arp-ML-Ies"/>
@@ -1061,6 +1076,6 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3R5-99-gHu"/>
+        <segue reference="NWc-57-EQu"/>
     </inferredMetricsTieBreakers>
 </document>
