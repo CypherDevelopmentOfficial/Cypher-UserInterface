@@ -1,0 +1,6 @@
+framework module Pods_CypherUITests {
+  umbrella header "Pods-CypherUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
