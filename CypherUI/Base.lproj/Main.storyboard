@@ -37,6 +37,11 @@
                         <viewLayoutGuide key="safeArea" id="We1-np-n9V"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="YVz-pm-6cR">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="meL-1T-d0H">
+                            <connections>
+                                <segue destination="3WR-aX-UPZ" kind="show" id="j8C-Kj-Rbh"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="settings" id="b3A-iA-tfX">
                             <connections>
                                 <segue destination="H5U-pL-64n" kind="show" id="3R5-99-gHu"/>
@@ -1076,6 +1081,7 @@
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NWc-57-EQu"/>
+        <segue reference="j8C-Kj-Rbh"/>
+        <segue reference="3R5-99-gHu"/>
     </inferredMetricsTieBreakers>
 </document>
