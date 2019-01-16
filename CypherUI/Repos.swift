@@ -1,5 +1,5 @@
 //
-//  PurchasesViewPage.swift
+//  RepoViewPage.swift
 //  CypherUI
 //
 //  Created by Team CypherDevelopment Remote Desktop on 13/01/2019.
@@ -10,6 +10,6 @@ import Foundation
 import UIKit
 import Accounts
 
-class PurchasesViewController: UIViewController {
+class RepoViewController: UIViewController {
     
 }
