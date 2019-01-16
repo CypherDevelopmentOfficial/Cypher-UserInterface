@@ -11,5 +11,22 @@ import UIKit
 import Accounts
 
 class RepoViewController: UIViewController {
+    //Testing if it worked. can you help me to add something so I can use Repos here Peter?
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+    }
+
+    
+    
+    
+    
     
 }
