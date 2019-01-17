@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CypherUI/AppDelegate.swift"
-            timestampString = "564336101.9354089"
+            timestampString = "569432594.482529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -87,6 +87,178 @@
                   offsetFromSymbolStart = "12">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CypherUI/FeaturedBanner.swift"
+            timestampString = "569432594.482621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "FeaturedView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.FeaturedBannerImage.getter : weak Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.639553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.FeaturedBannerImage.setter : weak Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.641487"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.init(frame: __C.CGRect) -&gt; CypherUI.FeaturedView"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.643333"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CypherUI.FeaturedView&gt;"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.645171"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CypherUI/FeaturedBanner.swift"
+            timestampString = "569432594.482685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "FeaturedView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.Logo.getter : weak Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.781052"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.Logo.setter : weak Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.7831531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.init(frame: __C.CGRect) -&gt; CypherUI.FeaturedView"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.785285"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CypherUI.FeaturedView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CypherUI.FeaturedView&gt;"
+                  moduleName = "CypherUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBanner.swift"
+                  timestampString = "569432594.787262"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CypherUI/FeaturedBanner.swift"
+            timestampString = "569432594.48274"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "EnterInfo(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

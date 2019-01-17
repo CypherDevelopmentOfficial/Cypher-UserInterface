@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11B44E21A30AF500B15179 /* CustomSegue.swift */; };
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
+		BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */; };
 		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
 		BCAA905A21EBA43300660070 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Repos.swift */; };
 		BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BF821518254005163F0 /* AppDelegate.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		BC11B44E21A30AF500B15179 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
+		BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
 		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		BCAA905921EBA43300660070 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		BCBA0BF521518254005163F0 /* CypherUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +166,7 @@
 		BCBA0C2C215184D2005163F0 /* BasicViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */,
 				BCBA0BFA21518254005163F0 /* HomeViewController.swift */,
 				BCBA0C2A2151841B005163F0 /* TweakViewController.swift */,
 				BCBA0C28215182B7005163F0 /* AppViewController.swift */,
@@ -324,6 +327,7 @@
 				BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */,
 				BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */,
 				BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */,
+				BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
