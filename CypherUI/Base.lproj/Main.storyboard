@@ -322,10 +322,10 @@
             </objects>
             <point key="canvasLocation" x="5344.8000000000002" y="-1141.0794602698652"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Sample RepoDB Table View-->
         <scene sceneID="ZKv-pT-Qar">
             <objects>
-                <tableViewController id="0q4-o0-2dJ" sceneMemberID="viewController">
+                <tableViewController id="0q4-o0-2dJ" customClass="SampleRepoDBTableView" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3JJ-Iw-hLq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -761,7 +761,7 @@
         <!--Search-->
         <scene sceneID="Ay2-Rl-hpy">
             <objects>
-                <viewController title="Search" id="Pz5-Ke-8eJ" sceneMemberID="viewController">
+                <viewController title="Search" id="Pz5-Ke-8eJ" customClass="SearchAll" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4R0-7O-mbg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -871,10 +871,10 @@
             </objects>
             <point key="canvasLocation" x="5166" y="1066"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Themes-->
         <scene sceneID="W2s-dA-K5H">
             <objects>
-                <viewController id="TMr-pD-23b" sceneMemberID="viewController">
+                <viewController id="TMr-pD-23b" customClass="SearchThemes" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i0v-vI-C3V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -909,10 +909,10 @@
             </objects>
             <point key="canvasLocation" x="5124" y="1933.5832083958023"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Tweaks-->
         <scene sceneID="fIc-vm-Hy2">
             <objects>
-                <viewController id="29e-Pl-uQU" sceneMemberID="viewController">
+                <viewController id="29e-Pl-uQU" customClass="SearchTweaks" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1dN-uy-O8x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -947,10 +947,10 @@
             </objects>
             <point key="canvasLocation" x="5124" y="2634.3328335832084"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Apps-->
         <scene sceneID="Ufj-Wc-fIb">
             <objects>
-                <viewController id="MEZ-qq-qEV" sceneMemberID="viewController">
+                <viewController id="MEZ-qq-qEV" customClass="SearchApps" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5CW-FN-80O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
