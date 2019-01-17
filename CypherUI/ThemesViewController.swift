@@ -23,15 +23,15 @@ class ThemeViewController: UIViewController {
         ThemesFeatureScrollView.contentSize = CGSize(width: self.view.bounds.width * CGFloat(featureArray.count), height:150)
         ThemesFeatureScrollView.showsHorizontalScrollIndicator = false
         
-     //   loadThemeFeatured()
+          loadThemeFeatured()
+    
     }
     
-    
-    //func loadThemeFeatured() {
-     //   for _ in featureArray.enumerated() {
-   //         _ = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? FeaturedViewC; do {}
-  //      }
-  //  }
+     func loadThemeFeatured() {
+        for _ in featureArray.enumerated() {
+            _ = Bundle.main.loadNibNamed("feature", owner: self, options: nil)?.first as? FeaturedViewC; do {}
+        }
+    }
     
     
     

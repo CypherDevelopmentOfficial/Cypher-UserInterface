@@ -522,70 +522,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="359.37031484257875"/>
-        </scene>
-        <!--Featured ViewC-->
-        <scene sceneID="cL7-4n-vf7">
-            <objects>
-                <viewController id="zjG-rd-GDe" customClass="FeaturedViewC" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fHE-sO-wRN" customClass="FeaturedView" customModule="CypherUI" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jNo-u6-98e" customClass="FeaturedBanner" customModule="CypherUI" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ThatName" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIU-RI-Atq">
-                                <rect key="frame" x="288" y="9" width="80" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlC-mN-gvF">
-                                <rect key="frame" x="341" y="32" width="27" height="14"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DeveloperName" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiP-4K-ohX">
-                                <rect key="frame" x="238" y="118" width="130" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Provided by: %reponame" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1t4-az-4lV">
-                                <rect key="frame" x="248" y="138" width="120" height="12"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="798-dO-WBF" customClass="Logo" customModule="CypherUI" customModuleProvider="target">
-                                <rect key="frame" x="16" y="80" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="wrS-Jg-sa5"/>
-                        <connections>
-                            <outlet property="DeveloperName" destination="UiP-4K-ohX" id="XRV-ij-VaU"/>
-                            <outlet property="FeaturedBannerImage" destination="jNo-u6-98e" id="YjU-wp-Zkq"/>
-                            <outlet property="FeaturedName" destination="vlC-mN-gvF" id="SLs-j5-Dt7"/>
-                            <outlet property="Logo" destination="798-dO-WBF" id="IBz-fM-ybf"/>
-                            <outlet property="PriceName" destination="vlC-mN-gvF" id="0WG-cg-lED"/>
-                            <outlet property="RepoSource" destination="1t4-az-4lV" id="Ymz-4Z-NTt"/>
-                        </connections>
-                    </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="150"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3B-Wv-NAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2446" y="175"/>
+            <point key="canvasLocation" x="1553" y="359"/>
         </scene>
         <!--Apps-->
         <scene sceneID="Mkd-w0-Qvy">
