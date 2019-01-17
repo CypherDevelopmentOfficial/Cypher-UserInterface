@@ -28,10 +28,10 @@ class ThemeViewController: UIViewController {
     
     
     //func loadThemeFeatured() {
-   //     for (index, featured) in featureArray.enumerated() {
-    //        let featureView = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? FeaturedView {}
-    //    }
-    //}
+     //   for _ in featureArray.enumerated() {
+   //         _ = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? FeaturedViewC; do {}
+  //      }
+  //  }
     
     
     
