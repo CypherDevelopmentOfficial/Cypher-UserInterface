@@ -110,7 +110,7 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VMg-6T-V1p" customClass="SwitchInstallment">
                                                 <rect key="frame" x="326" y="3" width="51" height="31"/>
                                                 <connections>
-                                                    <action selector="ButtonClicked:" destination="v8f-XM-Ics" eventType="valueChanged" id="7yV-69-GSh"/>
+                                                    <action selector="RefactorInstall:" destination="v8f-XM-Ics" eventType="valueChanged" id="TUU-xr-zXk"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
@@ -264,7 +264,6 @@
                     <navigationItem key="navigationItem" title="Settings" id="NPe-ZS-GLo"/>
                     <connections>
                         <outlet property="SwitchCel" destination="aMl-pg-GBr" id="ZYa-R0-roE"/>
-                        <outlet property="SwitchInstallment" destination="VMg-6T-V1p" id="RZJ-X8-kZd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DPo-gf-yQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -280,22 +279,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="username" borderStyle="bezel" textAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="rWT-EA-ZcR">
-                                <rect key="frame" x="133" y="161" width="109" height="36"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="rWT-EA-ZcR">
+                                <rect key="frame" x="133" y="161" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartQuotesType="yes" textContentType="username"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="14" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="d8k-oc-6ZG">
+                                <rect key="frame" x="133" y="218" width="109" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="go" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="no" smartQuotesType="yes" textContentType="password"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="line" textAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="d8k-oc-6ZG">
-                                <rect key="frame" x="133" y="218" width="109" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDJ-8H-dmG">
-                                <rect key="frame" x="166" y="132" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDJ-8H-dmG">
+                                <rect key="frame" x="150" y="132" width="76" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -404,12 +402,12 @@
         <!--Repositoiries-->
         <scene sceneID="DEF-uP-H9I">
             <objects>
-                <viewController title="Repositoiries" id="aM1-ce-0xV" sceneMemberID="viewController">
+                <viewController title="Repositoiries" id="aM1-ce-0xV" customClass="RepoViewController" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M4e-rS-KF6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uzg-pR-o7e">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uzg-pR-o7e" customClass="RepoTable" customModule="CypherUI" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="169" width="375" height="449"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -473,9 +471,12 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Y1a-gL-DlB">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Y1a-gL-DlB" customClass="ManualRepositoiries">
                                 <rect key="frame" x="164" y="105" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="EnableManual:" destination="aM1-ce-0xV" eventType="valueChanged" id="VLC-Wy-cdc"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -577,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3B-Wv-NAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2608.8000000000002" y="222.1889055472264"/>
+            <point key="canvasLocation" x="2558" y="243"/>
         </scene>
         <!--Apps-->
         <scene sceneID="Mkd-w0-Qvy">
@@ -868,7 +869,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="5124" y="1154.5727136431785"/>
+            <point key="canvasLocation" x="5166" y="1066"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="W2s-dA-K5H">

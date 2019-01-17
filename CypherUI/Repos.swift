@@ -12,6 +12,16 @@ import Accounts
 
 class RepoViewController: UIViewController {
     //Testing if it worked. can you help me to add something so I can use Repos here Peter?
+    @IBOutlet weak var RepoTable: UITableView!
+    
+    @IBAction func EnableManual(_ sender: Any) {
+        
+        
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,4 +39,12 @@ class RepoViewController: UIViewController {
     
     
     
+}
+class ManualRepositoiries: UISwitch {
+}
+
+class RepoTable: UITableView {
+  //  if ManualisOn: true {
+    
+ //   }
 }
