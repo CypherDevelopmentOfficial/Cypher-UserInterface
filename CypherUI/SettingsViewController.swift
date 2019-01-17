@@ -17,7 +17,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        SwitchInstallment.addTarget(self, action: #selector(getter: SettingsViewController.switchState), for: UIControl.Event.valueChanged)
+    //    SwitchInstallment.addTarget(self, action: #selector(getter: SettingsViewController.switchState), for: UIControl.Event.valueChanged)
         
     }
     
@@ -26,12 +26,12 @@ class SettingsViewController: UIViewController {
 
 class SwitchInstallment: UISwitch {
     
-    @IBAction func RefactorInstall(_ sender: SwitchInstallment) {
+  //  @IBAction func RefactorInstall(_ sender: SwitchInstallment) {
         
        
             
         }
-    }
+   // }
     
     
     
@@ -41,11 +41,11 @@ class SwitchInstallment: UISwitch {
 
 class SwitchCel: UISwitch {
     
-    @IBAction func RefactorCellular(_ sender: SwitchCel) {
+   // @IBAction func RefactorCellular(_ sender: SwitchCel) {
         
     }
     
-}
+//}
 
 
 
