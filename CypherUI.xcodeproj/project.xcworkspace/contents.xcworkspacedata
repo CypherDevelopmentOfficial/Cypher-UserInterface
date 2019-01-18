@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CypherUI.xcodeproj">
+      location = "group:/Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/FeaturedBannerView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/Feature.xib">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

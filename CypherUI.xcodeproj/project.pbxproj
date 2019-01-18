@@ -10,12 +10,11 @@
 		BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11B44E21A30AF500B15179 /* CustomSegue.swift */; };
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
 		BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */; };
-		BC91F61921F1379E005CBE43 /* Feature.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC91F61821F1379E005CBE43 /* Feature.xib */; };
 		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
 		BCAA905A21EBA43300660070 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Repos.swift */; };
 		BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BF821518254005163F0 /* AppDelegate.swift */; };
 		BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFA21518254005163F0 /* HomeViewController.swift */; };
-		BCBA0BFD21518254005163F0 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFC21518254005163F0 /* ThemesViewController.swift */; };
+		BCBA0BFD21518254005163F0 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFC21518254005163F0 /* ThemeViewController.swift */; };
 		BCBA0C0021518254005163F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBA0BFE21518254005163F0 /* Main.storyboard */; };
 		BCBA0C0221518257005163F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBA0C0121518257005163F0 /* Assets.xcassets */; };
 		BCBA0C0521518257005163F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */; };
@@ -25,6 +24,8 @@
 		BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2A2151841B005163F0 /* TweakViewController.swift */; };
 		BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2D21518532005163F0 /* InstalledViewController.swift */; };
 		BCBA0C3021518681005163F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2F21518681005163F0 /* SettingsViewController.swift */; };
+		BCD3F2D021F282130024B86D /* Feature.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3F2CF21F27FE20024B86D /* Feature.xib */; };
+		BCD3F30321F283120024B86D /* FeaturedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3F30221F283120024B86D /* FeaturedBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +49,12 @@
 		BC11B44E21A30AF500B15179 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
 		BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
-		BC91F61821F1379E005CBE43 /* Feature.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Feature.xib; sourceTree = "<group>"; };
 		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		BCAA905921EBA43300660070 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		BCBA0BF521518254005163F0 /* CypherUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBA0BF821518254005163F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCBA0BFA21518254005163F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		BCBA0BFC21518254005163F0 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		BCBA0BFC21518254005163F0 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		BCBA0BFF21518254005163F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCBA0C0121518257005163F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCBA0C0421518257005163F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,6 +70,8 @@
 		BCBA0C2D21518532005163F0 /* InstalledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledViewController.swift; sourceTree = "<group>"; };
 		BCBA0C2F21518681005163F0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BCBA0C3121550311005163F0 /* CypherUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CypherUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCD3F2CF21F27FE20024B86D /* Feature.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Feature.xib; path = "/Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/Feature.xib"; sourceTree = "<absolute>"; };
+		BCD3F30221F283120024B86D /* FeaturedBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedBannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +102,9 @@
 		BCAA905621EBA35000660070 /* InstalledUnderGroup */ = {
 			isa = PBXGroup;
 			children = (
+				BCD3F2CF21F27FE20024B86D /* Feature.xib */,
 				BCAA905721EBA36F00660070 /* LoginPage.swift */,
 				BCAA905921EBA43300660070 /* Repos.swift */,
-				BC91F61821F1379E005CBE43 /* Feature.xib */,
 			);
 			name = InstalledUnderGroup;
 			sourceTree = "<group>";
@@ -164,11 +166,12 @@
 		BCBA0C2C215184D2005163F0 /* BasicViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BCD3F30221F283120024B86D /* FeaturedBannerView.swift */,
 				BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */,
 				BCBA0BFA21518254005163F0 /* HomeViewController.swift */,
 				BCBA0C2A2151841B005163F0 /* TweakViewController.swift */,
 				BCBA0C28215182B7005163F0 /* AppViewController.swift */,
-				BCBA0BFC21518254005163F0 /* ThemesViewController.swift */,
+				BCBA0BFC21518254005163F0 /* ThemeViewController.swift */,
 				BCBA0C2F21518681005163F0 /* SettingsViewController.swift */,
 				BCBA0C2D21518532005163F0 /* InstalledViewController.swift */,
 				BCAA905621EBA35000660070 /* InstalledUnderGroup */,
@@ -286,7 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC91F61921F1379E005CBE43 /* Feature.xib in Resources */,
+				BCD3F2D021F282130024B86D /* Feature.xib in Resources */,
 				BCBA0C0521518257005163F0 /* LaunchScreen.storyboard in Resources */,
 				BCBA0C0221518257005163F0 /* Assets.xcassets in Resources */,
 				BCBA0C0021518254005163F0 /* Main.storyboard in Resources */,
@@ -314,10 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCBA0BFD21518254005163F0 /* ThemesViewController.swift in Sources */,
+				BCBA0BFD21518254005163F0 /* ThemeViewController.swift in Sources */,
 				BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */,
 				BCBA0C29215182B7005163F0 /* AppViewController.swift in Sources */,
 				BCBA0C3021518681005163F0 /* SettingsViewController.swift in Sources */,
+				BCD3F30321F283120024B86D /* FeaturedBannerView.swift in Sources */,
 				BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */,
 				BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */,
 				BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */,
