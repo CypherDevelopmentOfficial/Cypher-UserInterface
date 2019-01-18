@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 class FeaturedViewC: UIViewController {
 }
-class Feature: UIView {
+class featureView: UIView {
     
     
     @IBOutlet weak var FeaturedName: UILabel!
@@ -19,7 +19,7 @@ class Feature: UIView {
     @IBOutlet weak var DeveloperName: UILabel!
     @IBOutlet weak var FeaturedBannerImage: UIImageView!
     @IBOutlet weak var Logo: UIImageView!
-    @IBAction func EnterInfo(_ sender: Feature) {
+    @IBAction func EnterInfo(_ sender: featureView) {
     
     }
 

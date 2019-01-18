@@ -11,8 +11,8 @@ import UIKit
 class ThemeViewController: UIViewController {
 
     @IBOutlet weak var ThemesFeatureScrollView: UIScrollView!
-    let feature1 = ["DevelperName":"CypherDevelopment", "RepoSource": "YourDevice", "PriceName": "FREE", "FeaturedName": "Cypher", "FeaturedBannerImage": "BannerLaunch"]
-    let feature2 = ["DevelperName":"CypherDevelopment", "RepoSource": "YourDevice", "PriceName": "FREE", "FeaturedName": "Cypher", "FeaturedBannerImage": "BannerLaunch"]
+    let feature1 = ["DevelperName":"CypherDevelopment", "RepoSource": "YourDevice", "PriceName": "FREE", "FeaturedName": "Cypher", "FeaturedBannerImage": "BannerAtLaunch", "Logo": "MainLogo"]
+    let feature2 = ["DevelperName":"CypherDevelopment", "RepoSource": "YourDevice", "PriceName": "FREE", "FeaturedName": "Cypher", "FeaturedBannerImage": "BannerAtLaunch", "Logo": "MainLogo"]
     var featureArray = [Dictionary<String,String>]()
     
     override func viewDidLoad() {
@@ -28,8 +28,19 @@ class ThemeViewController: UIViewController {
     }
     
      func loadThemeFeatured() {
-        for _ in featureArray.enumerated() {
-            _ = Bundle.main.loadNibNamed("feature", owner: self, options: nil)?.first as? FeaturedViewC; do {}
+        for (index, feature) in featureArray.enumerated() {
+            if let featureView = Bundle.main.loadNibNamed("Feature", owner: self, options: nil)?.first as? featureView {
+                featureView.Logo.image = UIImage(named: feature["Logo"]!)
+                featureView.FeaturedBannerImage.image = UIImage(named: feature["FeaturedBannerImage"]!)
+                featureView.DeveloperName.text = feature["DevelperName"]
+                featureView.RepoSource.text = feature["RepoSource"]
+                featureView.PriceName.text = feature["PriceName"]
+                featureView.FeaturedName.text = feature["FeaturedName"]
+                
+                ThemesFeatureScrollView.addSubview(featureView)
+                featureView.frame.size.width = self.view.bounds.size.width
+                featureView.frame.origin.x = CGFloat(index) * self.view.bounds.size.width
+            }
         }
     }
     
