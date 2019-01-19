@@ -22,7 +22,8 @@ class ThemeViewController: UIViewController {
         ThemesFeatureScrollView.isPagingEnabled = true
         ThemesFeatureScrollView.contentSize = CGSize(width: self.view.bounds.width * CGFloat(featureArray.count), height:150)
         ThemesFeatureScrollView.showsHorizontalScrollIndicator = false
-   
+        ThemesFeatureScrollView.showsVerticalScrollIndicator = false
+        //So i cant disable scrolling without breaking Paging... annoying
         loadThemeFeatured()
         
     }
