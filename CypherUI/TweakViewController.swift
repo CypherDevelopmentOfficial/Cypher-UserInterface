@@ -19,7 +19,7 @@ class TweakViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        featureaArray = [featuretw1,featuretw2]
+        featuretwArray = [featuretw1,featuretw2]
         TweaksFeatureScrollView.isPagingEnabled = true
         TweaksFeatureScrollView.contentSize = CGSize(width: self.view.bounds.width * CGFloat(featuretwArray.count), height:150)
         TweaksFeatureScrollView.showsHorizontalScrollIndicator = false
