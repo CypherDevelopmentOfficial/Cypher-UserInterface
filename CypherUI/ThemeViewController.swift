@@ -30,6 +30,7 @@ class ThemeViewController: UIViewController {
     
      func loadThemeFeatured() {
         for (index, feature) in featureArray.enumerated() {
+            // Just for the reminder of 2 hours of work to just fix this one tiny mistake. NEVER REMOVE THAT BREAKPOINT
             guard let featureView = Bundle.main.loadNibNamed("Feature", owner: FeaturedBannerView(), options: nil)?.first as? FeaturedBannerView  else {
                 NSLog("Error!")
                 continue;
