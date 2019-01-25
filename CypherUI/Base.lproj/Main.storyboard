@@ -18,15 +18,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cC-WN-9X3">
-                                <rect key="frame" x="0.0" y="71" width="375" height="150"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cC-WN-9X3">
+                                <rect key="frame" x="0.0" y="64" width="375" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="p9Q-oz-K6f"/>
+                                </constraints>
                                 <connections>
                                     <segue destination="pFJ-kE-8w5" kind="embed" id="r9m-1v-o7Q"/>
                                 </connections>
                             </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Plq-a0-wmN">
+                                <rect key="frame" x="37" y="239" width="301" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="A huge Thanks to all the helping hands!">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Plq-a0-wmN" firstAttribute="centerX" secondItem="6Yh-c8-0AV" secondAttribute="centerX" id="CKb-4s-lux"/>
+                            <constraint firstItem="4cC-WN-9X3" firstAttribute="leading" secondItem="6Yh-c8-0AV" secondAttribute="leading" id="Lse-ct-eZo"/>
+                            <constraint firstItem="4cC-WN-9X3" firstAttribute="centerX" secondItem="6Yh-c8-0AV" secondAttribute="centerX" id="N9e-DG-SEY"/>
+                            <constraint firstItem="Plq-a0-wmN" firstAttribute="top" secondItem="4cC-WN-9X3" secondAttribute="top" constant="175" id="VLh-xo-wle"/>
+                            <constraint firstItem="Plq-a0-wmN" firstAttribute="centerX" secondItem="4cC-WN-9X3" secondAttribute="centerX" id="c2I-XL-pkx"/>
+                            <constraint firstItem="4cC-WN-9X3" firstAttribute="top" secondItem="We1-np-n9V" secondAttribute="top" id="yP4-tD-kda"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="We1-np-n9V"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="YVz-pm-6cR">
@@ -35,7 +57,7 @@
                                 <segue destination="3WR-aX-UPZ" kind="show" id="j8C-Kj-Rbh"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="settings" id="b3A-iA-tfX">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="b3A-iA-tfX">
                             <connections>
                                 <segue destination="H5U-pL-64n" kind="show" id="3R5-99-gHu"/>
                             </connections>
@@ -449,12 +471,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7DZ-7t-7Yr">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7DZ-7t-7Yr">
                                 <rect key="frame" x="0.0" y="64" width="375" height="150"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="IDY-Zn-JxB"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7DZ-7t-7Yr" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="8av-2N-8EH"/>
+                            <constraint firstItem="7DZ-7t-7Yr" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="i4Y-nL-HMR"/>
+                            <constraint firstItem="7DZ-7t-7Yr" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="rbz-ej-pia"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Themes" id="i4X-UL-QxX">
@@ -485,12 +514,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPY-co-S1L">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPY-co-S1L">
                                 <rect key="frame" x="0.0" y="64" width="375" height="150"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="AIW-ki-A0R"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bPY-co-S1L" firstAttribute="top" secondItem="naM-8I-RYZ" secondAttribute="top" id="6fa-Rz-tdo"/>
+                            <constraint firstItem="bPY-co-S1L" firstAttribute="centerX" secondItem="dxG-i9-7fB" secondAttribute="centerX" id="hNo-1e-UP5"/>
+                            <constraint firstItem="bPY-co-S1L" firstAttribute="leading" secondItem="dxG-i9-7fB" secondAttribute="leading" id="ooe-X6-bcO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="naM-8I-RYZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Applications" id="GjJ-zy-cvF">
@@ -521,12 +557,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="86D-18-bbp">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="86D-18-bbp">
                                 <rect key="frame" x="0.0" y="64" width="375" height="150"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="QLW-2K-pQH"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="86D-18-bbp" firstAttribute="leading" secondItem="46c-zC-eR5" secondAttribute="leading" id="4Jg-Je-ghq"/>
+                            <constraint firstItem="86D-18-bbp" firstAttribute="centerX" secondItem="JHj-25-K9H" secondAttribute="centerX" id="Jyf-Zu-2zH"/>
+                            <constraint firstItem="86D-18-bbp" firstAttribute="top" secondItem="46c-zC-eR5" secondAttribute="top" id="LqG-a7-VSt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="46c-zC-eR5"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tweaks" id="WTP-HK-wX5">
@@ -1009,14 +1052,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BannerAtLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="cGi-vL-DyT">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="RWf-Yu-Mmp"/>
                                     <constraint firstAttribute="height" constant="150" id="jLZ-Z2-btT"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Cypher" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeN-SV-BLq">
-                                <rect key="frame" x="112" y="65" width="151" height="125"/>
+                                <rect key="frame" x="112" y="58" width="151" height="125"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.055835805833339691" green="0.39438390731811523" blue="0.71341055631637573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1058,7 +1101,7 @@
         <image name="Home" width="40" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fjv-NN-xsM"/>
-        <segue reference="qRz-UM-hyQ"/>
+        <segue reference="j8C-Kj-Rbh"/>
+        <segue reference="3R5-99-gHu"/>
     </inferredMetricsTieBreakers>
 </document>
