@@ -16,3 +16,8 @@ class FeaturedBannerView: UIView {
     @IBOutlet weak var RepoSource: UILabel!
     @IBOutlet weak var Logo: UIImageView!
 }
+
+
+class TopShelfScrollView: UIStackView {
+    
+}

@@ -54,9 +54,24 @@ class ThemeViewController: UIViewController {
         }
     }
     
-    
-    
-    
+    @IBOutlet weak var TopShelfs: UIScrollView!
+    /*
+        let TpS1 = []
+        let TpS2 = []
+        let TpS3 = []
+        let TpS4 = []
+        let TpS5 = []
+        let TpS6 = []
+        let TpS7 = []
+        let TpS8 = []
+        let TpS9 = []
+        let TpS10 = []
+        let TpS11 = []
+        let TpS12 = []
+        let TpS13 = []
+        let TpS14 = []
+        let TpS15 = []
+    */
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
