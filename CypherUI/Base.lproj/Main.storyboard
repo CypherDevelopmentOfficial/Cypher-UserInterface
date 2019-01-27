@@ -584,6 +584,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="ThemesFeatureScrollView" destination="7DZ-7t-7Yr" id="TuA-b7-B2d"/>
+                        <outlet property="TopShelfs" destination="rMP-58-tXT" id="6nS-4Z-Pwn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
