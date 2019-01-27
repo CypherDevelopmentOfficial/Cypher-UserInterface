@@ -18,6 +18,6 @@ class FeaturedBannerView: UIView {
 }
 
 
-class TopShelfScrollView: UIStackView {
+class TopShelfScrollView: UIView {
     
 }
