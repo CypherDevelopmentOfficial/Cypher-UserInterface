@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11B44E21A30AF500B15179 /* CustomSegue.swift */; };
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
+		BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */; };
 		BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */; };
 		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
 		BCAA905A21EBA43300660070 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Repos.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		BC11B44E21A30AF500B15179 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
+		BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewWithConstantIcons.xib; sourceTree = "<group>"; };
 		BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
 		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		BCAA905921EBA43300660070 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
@@ -99,10 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC70F51921FE001D00BC785C /* StoryControl */ = {
+			isa = PBXGroup;
+			children = (
+				BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */,
+				BCBA0BFE21518254005163F0 /* Main.storyboard */,
+				BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */,
+				BCD3F2CF21F27FE20024B86D /* Feature.xib */,
+			);
+			name = StoryControl;
+			sourceTree = "<group>";
+		};
 		BCAA905621EBA35000660070 /* InstalledUnderGroup */ = {
 			isa = PBXGroup;
 			children = (
-				BCD3F2CF21F27FE20024B86D /* Feature.xib */,
 				BCAA905721EBA36F00660070 /* LoginPage.swift */,
 				BCAA905921EBA43300660070 /* Repos.swift */,
 			);
@@ -136,9 +148,7 @@
 				BC55A95E2199DAF9001166CA /* BackBoardUI.swift */,
 				BC11B44E21A30AF500B15179 /* CustomSegue.swift */,
 				BCBA0C2C215184D2005163F0 /* BasicViewControllers */,
-				BCBA0BFE21518254005163F0 /* Main.storyboard */,
 				BCBA0C0121518257005163F0 /* Assets.xcassets */,
-				BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */,
 				BCBA0C0621518257005163F0 /* Info.plist */,
 				BCBA0C3121550311005163F0 /* CypherUI-Bridging-Header.h */,
 			);
@@ -174,6 +184,7 @@
 				BCBA0BFC21518254005163F0 /* ThemeViewController.swift */,
 				BCBA0C2F21518681005163F0 /* SettingsViewController.swift */,
 				BCBA0C2D21518532005163F0 /* InstalledViewController.swift */,
+				BC70F51921FE001D00BC785C /* StoryControl */,
 				BCAA905621EBA35000660070 /* InstalledUnderGroup */,
 			);
 			name = BasicViewControllers;
@@ -293,6 +304,7 @@
 				BCBA0C0521518257005163F0 /* LaunchScreen.storyboard in Resources */,
 				BCBA0C0221518257005163F0 /* Assets.xcassets in Resources */,
 				BCBA0C0021518254005163F0 /* Main.storyboard in Resources */,
+				BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

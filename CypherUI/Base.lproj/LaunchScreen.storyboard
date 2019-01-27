@@ -59,7 +59,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Niklas, John NemECis, iP0x15, Kurtis">
                                         <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="NSColor" red="0.52257800102233887" green="0.53806114196777344" blue="0.61755281686782837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name="AmericanTypewriter-Semibold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -85,7 +85,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Colburpdesigns">
                                         <attributes>
-                                            <color key="NSColor" red="0.2451627267" green="0.2451627267" blue="0.2451627267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.24516272668393779" green="0.24516272668393779" blue="0.24516272668393779" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="10" name="AmericanTypewriter-Semibold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
