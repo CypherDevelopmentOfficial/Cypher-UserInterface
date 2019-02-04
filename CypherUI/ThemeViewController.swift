@@ -71,6 +71,30 @@ class ThemeViewController: UIViewController {
         let TpS13 = []
         let TpS14 = []
         let TpS15 = []
+     
+     override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        TpS1Array = [TpS1,TpS2]
+     
+    func loadTopShelfs() {
+                for (index, TpS) in TpSArray.enumerated() {
+        // Just for the reminder of 2 hours of work to just fix this one tiny mistake. NEVER REMOVE THAT BREAKPOINT
+             guard let TopShelfView = Bundle.main.loadNibNamed("ScrollViewWithConstantIcons", owner: FeaturedBannerView(), options: nil)?.first as? FeaturedBannerView  else {
+             NSLog("Error!")
+             continue;
+     }
+     
+         TopShelfs.addSubview(featureView)
+         TopShelfView.frame.size.width = self.view.bounds.size.width
+         TopShelfView.frame.origin.x = CGFloat(index) * self.view.bounds.size.width
+     
+         TopShelfView.Logo.image = UIImage(named: feature["Logo"]!)
+         TopShelfView.FeaturedBannerImage.image = UIImage(named: feature["FeaturedBannerImage"]!)
+         TopShelfView.DeveloperName.text = feature["DeveloperName"]
+         TopShelfView.RepoSource.text = feature["RepoSource"]
+         TopShelfView.PriceName.text = feature["PriceName"]
+         TopShelfView.FeaturedName.text = feature["FeaturedName"]
     */
     
     override func didReceiveMemoryWarning() {
@@ -79,3 +103,4 @@ class ThemeViewController: UIViewController {
     }
 
 }
+

@@ -182,8 +182,8 @@
 				BCBA0C2A2151841B005163F0 /* TweakViewController.swift */,
 				BCBA0C28215182B7005163F0 /* AppViewController.swift */,
 				BCBA0BFC21518254005163F0 /* ThemeViewController.swift */,
-				BCBA0C2F21518681005163F0 /* SettingsViewController.swift */,
 				BCBA0C2D21518532005163F0 /* InstalledViewController.swift */,
+				BCBA0C2F21518681005163F0 /* SettingsViewController.swift */,
 				BC70F51921FE001D00BC785C /* StoryControl */,
 				BCAA905621EBA35000660070 /* InstalledUnderGroup */,
 			);
