@@ -10,10 +10,10 @@ import UIKit
 import SystemConfiguration
 import Foundation
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UITableViewController {
     @IBOutlet var SwitchCel: UISwitch!
     @IBOutlet var SwitchInstallment: UISwitch!
-    @IBOutlet var switchState: UILabel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

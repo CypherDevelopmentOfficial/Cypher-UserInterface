@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThemeViewController: UIViewController {
+class ThemeViewController: UITableViewController {
 
     @IBOutlet weak var ThemesFeatureScrollView: UIScrollView!
     let feature1 = ["DeveloperName":"CypherDevelopment", "RepoSource": "YourDevice", "PriceName": "FREE", "FeaturedName": "Cypher", "FeaturedBannerImage": "BannerAtLaunch", "Logo": "MainLogo"]
