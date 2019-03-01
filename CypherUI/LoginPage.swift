@@ -10,7 +10,7 @@
 import Foundation
 import UIKit
 import Accounts
-
+import Alamofire
 
 
 class LoginPage: UIViewController{

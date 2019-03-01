@@ -8,38 +8,42 @@
 
 import Foundation
 import SystemConfiguration
-public class Reachability {
+
+
+// This is the first part I will be seriously writing with certainty it is for the backend.
+// This will most likely be used to check if repositories are online or offline.
+// A replacement will be needed later, but i have to study apt before i can do this.
+// If i learn how Apt works and can be implemented, I will use this to connect to a server. This method will be used to check if the repo is online. If Apt cant get any packages, it will be a "Under Maintanance" (yellow bulb), and if Error, Offline (red bulb), and if packages are being found, Online (Green bulb). Or dunno. whatever, it will be visible to the end user.
+
+//// Since I am new, I will be documenting anything I hope to reach. One day I wont need to anymore.
+////// When Niklas gives me the Missing Link (an apt replacement), this will be used instead.
+
+
+
+/*
+
+func checkWebsite(completion: @escaping (Bool) -> Void ) {
+    guard let url = URL(string: source) else { return }
     
-    class func isConnectedToNetwork() -> Bool {
-        
-        var zeroAddress = sockaddr_in(sin_len: 0, sin_family: 0, sin_port: 0, sin_addr: in_addr(s_addr: 0), sin_zero: (0, 0, 0, 0, 0, 0, 0, 0))
-        zeroAddress.sin_len = UInt8(MemoryLayout.size(ofValue: zeroAddress))
-        zeroAddress.sin_family = sa_family_t(AF_INET)
-        
-        let defaultRouteReachability = withUnsafePointer(to: &zeroAddress) {
-            $0.withMemoryRebound(to: sockaddr.self, capacity: 1) {zeroSockAddress in
-                SCNetworkReachabilityCreateWithAddress(nil, zeroSockAddress)
-            }
+    var request = URLRequest(url: url)
+    request.timeoutInterval = 1.0
+    
+    let task = URLSession.shared.dataTask(with: request) { data, response, error in
+        if let error = error {
+            print("\(error.localizedDescription)")
+            completion(false)
         }
-        
-        var flags: SCNetworkReachabilityFlags = SCNetworkReachabilityFlags(rawValue: 0)
-        if SCNetworkReachabilityGetFlags(defaultRouteReachability!, &flags) == false {
-            return false
+        if let httpResponse = response as? HTTPURLResponse {
+            print("statusCode: \(httpResponse.statusCode)")
+            // do your logic here
+            // if statusCode == 200 ...
+            completion(true)
+            
         }
-        
-        /* Only Working for WIFI
-         let isReachable = flags == .reachable
-         let needsConnection = flags == .connectionRequired
-         
-         return isReachable && !needsConnection
-         */
-        
-        // Working for Cellular and WIFI
-        let isReachable = (flags.rawValue & UInt32(kSCNetworkFlagsReachable)) != 0
-        let needsConnection = (flags.rawValue & UInt32(kSCNetworkFlagsConnectionRequired)) != 0
-        let ret = (isReachable && !needsConnection)
-        
-        return ret
-        
     }
+    task.resume()
 }
+*/
+
+//ugh
+

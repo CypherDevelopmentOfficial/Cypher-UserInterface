@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B6823B174D17E1DC085FADE /* Pods_CypherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448E72B7A1854FC54DA2763 /* Pods_CypherUITests.framework */; };
 		BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11B44E21A30AF500B15179 /* CustomSegue.swift */; };
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
+		BC59D565220E0E7100B840DC /* Testable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC59D564220E0E7100B840DC /* Testable.xib */; };
 		BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */; };
 		BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */; };
 		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
@@ -27,6 +29,8 @@
 		BCBA0C3021518681005163F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2F21518681005163F0 /* SettingsViewController.swift */; };
 		BCD3F2D021F282130024B86D /* Feature.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3F2CF21F27FE20024B86D /* Feature.xib */; };
 		BCD3F30321F283120024B86D /* FeaturedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3F30221F283120024B86D /* FeaturedBannerView.swift */; };
+		C608073A6EDA2420F47260E5 /* Pods_CypherUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4FBA0DEBE2318C6019B909 /* Pods_CypherUIUITests.framework */; };
+		F019B6759A1C32238A1EE3B0 /* Pods_CypherUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B84B45CF74772FBB251B5A /* Pods_CypherUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D076528914BE5F85B8EC495 /* Pods-CypherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUITests/Pods-CypherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29B84B45CF74772FBB251B5A /* Pods_CypherUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F6BA0314C850DECB06CAF3 /* Pods-CypherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUITests/Pods-CypherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50CC6286632C0C1B2C1AA8A9 /* Pods-CypherUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUI/Pods-CypherUI.release.xcconfig"; sourceTree = "<group>"; };
+		592F01311D8AEBE1AE84EEAF /* Pods-CypherUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUIUITests/Pods-CypherUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87EDEB65B00361388AC6E2BA /* Pods-CypherUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUIUITests/Pods-CypherUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9448E72B7A1854FC54DA2763 /* Pods_CypherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC11B44E21A30AF500B15179 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
+		BC59D564220E0E7100B840DC /* Testable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Testable.xib; sourceTree = "<group>"; };
 		BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewWithConstantIcons.xib; sourceTree = "<group>"; };
 		BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
 		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -74,6 +86,8 @@
 		BCBA0C3121550311005163F0 /* CypherUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CypherUI-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCD3F2CF21F27FE20024B86D /* Feature.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Feature.xib; path = "/Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/Feature.xib"; sourceTree = "<absolute>"; };
 		BCD3F30221F283120024B86D /* FeaturedBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedBannerView.swift; sourceTree = "<group>"; };
+		D6EB77451DA0C2D6B7F031EB /* Pods-CypherUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUI/Pods-CypherUI.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4FBA0DEBE2318C6019B909 /* Pods_CypherUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F019B6759A1C32238A1EE3B0 /* Pods_CypherUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6823B174D17E1DC085FADE /* Pods_CypherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,17 +111,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C608073A6EDA2420F47260E5 /* Pods_CypherUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B124AD8AE6B6F4A503EB3B05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B84B45CF74772FBB251B5A /* Pods_CypherUI.framework */,
+				9448E72B7A1854FC54DA2763 /* Pods_CypherUITests.framework */,
+				FE4FBA0DEBE2318C6019B909 /* Pods_CypherUIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC70F51921FE001D00BC785C /* StoryControl */ = {
 			isa = PBXGroup;
 			children = (
 				BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */,
 				BCBA0BFE21518254005163F0 /* Main.storyboard */,
+				BC59D564220E0E7100B840DC /* Testable.xib */,
 				BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */,
 				BCD3F2CF21F27FE20024B86D /* Feature.xib */,
 			);
@@ -128,6 +156,8 @@
 				BCBA0C0E21518257005163F0 /* CypherUITests */,
 				BCBA0C1921518257005163F0 /* CypherUIUITests */,
 				BCBA0BF621518254005163F0 /* Products */,
+				FA066E119DCE0835FDFF8E49 /* Pods */,
+				B124AD8AE6B6F4A503EB3B05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,6 +220,19 @@
 			name = BasicViewControllers;
 			sourceTree = "<group>";
 		};
+		FA066E119DCE0835FDFF8E49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB77451DA0C2D6B7F031EB /* Pods-CypherUI.debug.xcconfig */,
+				50CC6286632C0C1B2C1AA8A9 /* Pods-CypherUI.release.xcconfig */,
+				1D076528914BE5F85B8EC495 /* Pods-CypherUITests.debug.xcconfig */,
+				44F6BA0314C850DECB06CAF3 /* Pods-CypherUITests.release.xcconfig */,
+				87EDEB65B00361388AC6E2BA /* Pods-CypherUIUITests.debug.xcconfig */,
+				592F01311D8AEBE1AE84EEAF /* Pods-CypherUIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCBA0C1F21518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUI" */;
 			buildPhases = (
+				4F77BDB5C85D90B2AED7A5A9 /* [CP] Check Pods Manifest.lock */,
 				BCBA0BF121518254005163F0 /* Sources */,
 				BCBA0BF221518254005163F0 /* Frameworks */,
 				BCBA0BF321518254005163F0 /* Resources */,
+				D593F9CF438FFDB05A6288ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCBA0C2221518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUITests" */;
 			buildPhases = (
+				3ACE7D05410F84619CE54F38 /* [CP] Check Pods Manifest.lock */,
 				BCBA0C0721518257005163F0 /* Sources */,
 				BCBA0C0821518257005163F0 /* Frameworks */,
 				BCBA0C0921518257005163F0 /* Resources */,
@@ -232,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCBA0C2521518257005163F0 /* Build configuration list for PBXNativeTarget "CypherUIUITests" */;
 			buildPhases = (
+				C10E7A434EEA7EAD2CFA356B /* [CP] Check Pods Manifest.lock */,
 				BCBA0C1221518257005163F0 /* Sources */,
 				BCBA0C1321518257005163F0 /* Frameworks */,
 				BCBA0C1421518257005163F0 /* Resources */,
@@ -303,6 +350,7 @@
 				BCD3F2D021F282130024B86D /* Feature.xib in Resources */,
 				BCBA0C0521518257005163F0 /* LaunchScreen.storyboard in Resources */,
 				BCBA0C0221518257005163F0 /* Assets.xcassets in Resources */,
+				BC59D565220E0E7100B840DC /* Testable.xib in Resources */,
 				BCBA0C0021518254005163F0 /* Main.storyboard in Resources */,
 				BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */,
 			);
@@ -323,6 +371,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ACE7D05410F84619CE54F38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypherUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F77BDB5C85D90B2AED7A5A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypherUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10E7A434EEA7EAD2CFA356B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypherUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D593F9CF438FFDB05A6288ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CypherUI/Pods-CypherUI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CypherUI/Pods-CypherUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCBA0BF121518254005163F0 /* Sources */ = {
@@ -514,6 +653,7 @@
 		};
 		BCBA0C2021518257005163F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6EB77451DA0C2D6B7F031EB /* Pods-CypherUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -527,8 +667,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -536,6 +678,7 @@
 		};
 		BCBA0C2121518257005163F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CC6286632C0C1B2C1AA8A9 /* Pods-CypherUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -547,9 +690,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -557,6 +702,7 @@
 		};
 		BCBA0C2321518257005163F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D076528914BE5F85B8EC495 /* Pods-CypherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -577,6 +723,7 @@
 		};
 		BCBA0C2421518257005163F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F6BA0314C850DECB06CAF3 /* Pods-CypherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -597,6 +744,7 @@
 		};
 		BCBA0C2621518257005163F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EDEB65B00361388AC6E2BA /* Pods-CypherUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -616,6 +764,7 @@
 		};
 		BCBA0C2721518257005163F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592F01311D8AEBE1AE84EEAF /* Pods-CypherUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
