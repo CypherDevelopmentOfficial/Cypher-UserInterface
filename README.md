@@ -30,6 +30,15 @@ Many Developers are held back to test some tweaks. This either is because they a
 #### Early-Access to Cypher
 Since we will be all OpenSource, anyone can join the Early-Access. Unfortunately, this causes some significant risks when we will be adding new functions on the daily. 
 
+### CypherPolice
+What is the goal of CypherPolice? They have to report if there are any pirate sources. They can add a Pirate Source to check out if it is true, and if it gets closed out, it doesnt suspend them. Installing a package will be allowed for 10 minutes. Then it will warn. If you do not respond, it will strip you from rank.
+
+As CypherPolice you will have to give "Patrol Hours" to us. These will be the times you will get a message if a source has been flagged. You are given the power to strike an user if he is talking nonsence (for example: "Packix is pirate" can be ignored. also imediately should be struck. 3 strikes is out. The user will have a chance to write a message after getting third strike. This could be: There is 1 pirate package here. Thats "Blah". If he is right, Strikes for that situation can be removed.)
+
+Because the CypherPolice has great power, these people will have to send a monthly report if they made any mistakes. Accepting mistakes is good. If an user gives a "Invalid Strike" argument that is well-motivated, and no mistakes in the month's end-report, this will result in a 1 out of 3 strikes for this "CypherOfficer". 3 will result in Degradation.
+
+Strikes will be kept by for a period of 6 months. But if you get your last strike at the last day of the 6 month period, you still get the full punishment.
+
 ## Ranks on the Service
 
 |              | Support | Flagging | Alpha Noter | Beta Software | LoopBreach | TweakProtect Allignment | B-Reporter | SellMaShip | ConflictRoles   |
@@ -42,3 +51,4 @@ Since we will be all OpenSource, anyone can join the Early-Access. Unfortunately
 | PirateDevs   |         |          |             |               |            |                         |            |      Y     |        Y        |
 | SuspectedDev |    Y    |          |      Y      |               |      Y     |                         |            |            | Temp Suspending |
 | Owners       |    Y     |     Y    |      Y      |       Y       |      Y     |            Y            |      Y     |      Y     |     0V3R5197    |
+| Struck       |          |          |             |               |      Y      |                          |             |             |       2weeks        |
