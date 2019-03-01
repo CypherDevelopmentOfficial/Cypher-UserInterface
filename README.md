@@ -40,4 +40,4 @@ Since we will be all OpenSource, anyone can join the Early-Access. Unfortunately
 | Pirates      |         |          |             |               |            |                         |            |      Y     |        Y        |
 | PirateDevs   |         |          |             |               |            |                         |            |      Y     |        Y        |
 | SuspectedDev |    Y    |          |      Y      |               |      Y     |                         |            |            | Temp Suspending |
-| Owners       |         |     Y    |      Y      |       Y       |      Y     |            Y            |      Y     |      Y     |     0V3R5197    |
+| Owners       |    Y     |     Y    |      Y      |       Y       |      Y     |            Y            |      Y     |      Y     |     0V3R5197    |
