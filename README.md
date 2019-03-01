@@ -1,5 +1,6 @@
 # Cypher
 We are not here to compete with Cydia in any way. Anyone that says: "Screw Cydia, Just use Cypher instead" should be learned respect. Everyone deserves the same treatment, and any package manager must be seen with respect.
+
 First there was Installer, then there was Cydia. Later, some alternatives were made like Sileo, Icy, and Installer 5. We do not want to be seen as an alternative or successor. We keep our project opensource, and soon we will ensure Saurik is allowed to use anything we make and use it for himself, as long as we are still allowed to use it. 
 ## By CypherDevelopment
 
