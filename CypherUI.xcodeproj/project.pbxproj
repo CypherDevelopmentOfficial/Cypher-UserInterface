@@ -12,6 +12,7 @@
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
 		BC59D565220E0E7100B840DC /* Testable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC59D564220E0E7100B840DC /* Testable.xib */; };
 		BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */; };
+		BC82825522306026002536AF /* SuperSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC82825422306026002536AF /* SuperSettings.bundle */; };
 		BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */; };
 		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
 		BCAA905A21EBA43300660070 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Repos.swift */; };
@@ -62,6 +63,8 @@
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
 		BC59D564220E0E7100B840DC /* Testable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Testable.xib; sourceTree = "<group>"; };
 		BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewWithConstantIcons.xib; sourceTree = "<group>"; };
+		BC82825422306026002536AF /* SuperSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SuperSettings.bundle; path = CypherUI/SuperSettings.bundle; sourceTree = SOURCE_ROOT; };
+		BC828257223061F2002536AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
 		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		BCAA905921EBA43300660070 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
@@ -134,6 +137,7 @@
 				BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */,
 				BCBA0BFE21518254005163F0 /* Main.storyboard */,
 				BC59D564220E0E7100B840DC /* Testable.xib */,
+				BC82825422306026002536AF /* SuperSettings.bundle */,
 				BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */,
 				BCD3F2CF21F27FE20024B86D /* Feature.xib */,
 			);
@@ -300,7 +304,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CyDev;
 				TargetAttributes = {
 					BCBA0BF421518254005163F0 = {
@@ -353,6 +357,7 @@
 				BC59D565220E0E7100B840DC /* Testable.xib in Resources */,
 				BCBA0C0021518254005163F0 /* Main.storyboard in Resources */,
 				BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */,
+				BC82825522306026002536AF /* SuperSettings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +525,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BCBA0BFF21518254005163F0 /* Base */,
+				BC828257223061F2002536AF /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -667,7 +673,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;

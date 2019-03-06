@@ -18,6 +18,16 @@ class FeaturedBannerView: UIView {
 }
 
 
+class EZReplacement: UIView {
+    
+    @IBOutlet weak var ItemLogo: UIImageView!
+    @IBOutlet weak var ItemName: UILabel!
+    @IBOutlet weak var ItemPrice: UILabel!
+    @IBOutlet weak var DeveloperName: UILabel!
+    
+    @IBOutlet weak var ItemRating: UILabel!
+}
+
 class TopSpotScrollView: UIView {
     // This is a mess, i know. i hope i learn to clean this one day
     // **IMPORTANT: L stands for Logo. N stands for logo. P stands for Price. R stands for Rating (x/5). D stands for Developer

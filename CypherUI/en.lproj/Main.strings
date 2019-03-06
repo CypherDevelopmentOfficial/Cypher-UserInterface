@@ -1,0 +1,192 @@
+
+/* Class = "UILabel"; text = "Helpers and Credits"; ObjectID = "27B-G5-riS"; */
+"27B-G5-riS.text" = "Helpers and Credits";
+
+/* Class = "UILabel"; text = "Reach us!"; ObjectID = "2nq-EZ-UBb"; */
+"2nq-EZ-UBb.text" = "Reach us!";
+
+/* Class = "UIViewController"; title = "Tweaks"; ObjectID = "2y0-1s-51w"; */
+"2y0-1s-51w.title" = "Tweaks";
+
+/* Class = "UINavigationItem"; title = "Themes"; ObjectID = "3qo-ai-5SW"; */
+"3qo-ai-5SW.title" = "Themes";
+
+/* Class = "UILabel"; text = "category"; ObjectID = "565-Ak-y5x"; */
+"565-Ak-y5x.text" = "category";
+
+/* Class = "UILabel"; text = "repostatus"; ObjectID = "5JG-6M-sfm"; */
+"5JG-6M-sfm.text" = "repostatus";
+
+/* Class = "UILabel"; text = "category"; ObjectID = "5Jg-Qw-nf7"; */
+"5Jg-Qw-nf7.text" = "category";
+
+/* Class = "UILabel"; text = "TweakName"; ObjectID = "5Nx-a2-uMd"; */
+"5Nx-a2-uMd.text" = "TweakName";
+
+/* Class = "UITableViewSection"; headerTitle = "    Fresh Themes"; ObjectID = "5im-BX-tYN"; */
+"5im-BX-tYN.headerTitle" = "    Fresh Themes";
+
+/* Class = "UITableViewController"; title = "Settings"; ObjectID = "6DC-mQ-Cje"; */
+"6DC-mQ-Cje.title" = "Settings";
+
+/* Class = "UILabel"; text = "Use Cellular"; ObjectID = "9Jc-le-isu"; */
+"9Jc-le-isu.text" = "Use Cellular";
+
+/* Class = "UINavigationItem"; title = "Updates"; ObjectID = "9fn-lJ-Uqj"; */
+"9fn-lJ-Uqj.title" = "Updates";
+
+/* Class = "UILabel"; text = "View Purchased"; ObjectID = "CDJ-IX-lL4"; */
+"CDJ-IX-lL4.text" = "View Purchased";
+
+/* Class = "UITableViewSection"; headerTitle = "    Our choices"; ObjectID = "CI0-vo-aWR"; */
+"CI0-vo-aWR.headerTitle" = "    Our choices";
+
+/* Class = "UITableViewSection"; footerTitle = "*note: we weren't planning to add manual repositories. But the community wants it, so we can't let you down. Love yall, and enjoy the freedom!"; ObjectID = "Faa-a5-uLl"; */
+"Faa-a5-uLl.footerTitle" = "*note: we weren't planning to add manual repositories. But the community wants it, so we can't let you down. Love yall, and enjoy the freedom!";
+
+/* Class = "UITableViewSection"; headerTitle = "Help and Manual things"; ObjectID = "Faa-a5-uLl"; */
+"Faa-a5-uLl.headerTitle" = "Help and Manual things";
+
+/* Class = "UITableViewSection"; headerTitle = "    Top Free Themes"; ObjectID = "GNs-ef-Rw1"; */
+"GNs-ef-Rw1.headerTitle" = "    Top Free Themes";
+
+/* Class = "UITabBarItem"; title = "Updates"; ObjectID = "GTe-1h-XEo"; */
+"GTe-1h-XEo.title" = "Updates";
+
+/* Class = "UINavigationItem"; title = "Applications"; ObjectID = "GjJ-zy-cvF"; */
+"GjJ-zy-cvF.title" = "Applications";
+
+/* Class = "UISearchBar"; placeholder = "search themes"; ObjectID = "HFu-C2-ALO"; */
+"HFu-C2-ALO.placeholder" = "search themes";
+
+/* Class = "UITabBarItem"; title = "Apps"; ObjectID = "HtJ-Nh-Znx"; */
+"HtJ-Nh-Znx.title" = "Apps";
+
+/* Class = "UIButton"; normalTitle = "Report"; ObjectID = "JLo-ER-n41"; */
+"JLo-ER-n41.normalTitle" = "Report";
+
+/* Class = "UIViewController"; title = "Apps"; ObjectID = "KCO-Dh-e8b"; */
+"KCO-Dh-e8b.title" = "Apps";
+
+/* Class = "UIButton"; normalTitle = "Refresh"; ObjectID = "KEw-5s-Ryx"; */
+"KEw-5s-Ryx.normalTitle" = "Refresh";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "MhV-l5-Yyl"; */
+"MhV-l5-Yyl.text" = "Name";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "NSn-36-PIg"; */
+"NSn-36-PIg.title" = "Login";
+
+/* Class = "UILabel"; text = "Cypher"; ObjectID = "NgF-2E-HcS"; */
+"NgF-2E-HcS.text" = "Cypher";
+
+/* Class = "UITableViewSection"; headerTitle = "    Top-Shelfs"; ObjectID = "ODP-Vi-ePe"; */
+"ODP-Vi-ePe.headerTitle" = "    Top-Shelfs";
+
+/* Class = "UITableViewSection"; headerTitle = "    Top Paid Themes"; ObjectID = "Oes-ew-WuO"; */
+"Oes-ew-WuO.headerTitle" = "    Top Paid Themes";
+
+/* Class = "UILabel"; text = "First UI commit: John NemECis"; ObjectID = "PB9-k1-mHw"; */
+"PB9-k1-mHw.text" = "First UI commit: John NemECis";
+
+/* Class = "UIViewController"; title = "Search"; ObjectID = "Pz5-Ke-8eJ"; */
+"Pz5-Ke-8eJ.title" = "Search";
+
+/* Class = "UILabel"; text = "Developername"; ObjectID = "Rm3-03-HuH"; */
+"Rm3-03-HuH.text" = "Developername";
+
+/* Class = "UILabel"; text = "category"; ObjectID = "TfO-xc-9dq"; */
+"TfO-xc-9dq.text" = "category";
+
+/* Class = "UILabel"; text = "By CypherDevelopment"; ObjectID = "V9h-Mi-OaR"; */
+"V9h-Mi-OaR.text" = "By CypherDevelopment";
+
+/* Class = "UITabBarItem"; title = "Tweaks"; ObjectID = "VDe-lg-Znw"; */
+"VDe-lg-Znw.title" = "Tweaks";
+
+/* Class = "UILabel"; text = "category"; ObjectID = "WQ4-lP-9kR"; */
+"WQ4-lP-9kR.text" = "category";
+
+/* Class = "UINavigationItem"; title = "Tweaks"; ObjectID = "WTP-HK-wX5"; */
+"WTP-HK-wX5.title" = "Tweaks";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "YVz-pm-6cR"; */
+"YVz-pm-6cR.title" = "Home";
+
+/* Class = "UISearchBar"; placeholder = "search apps"; ObjectID = "YZK-yV-XbG"; */
+"YZK-yV-XbG.placeholder" = "search apps";
+
+/* Class = "UILabel"; text = "RepoName"; ObjectID = "Yet-Ea-vGy"; */
+"Yet-Ea-vGy.text" = "RepoName";
+
+/* Class = "UISearchBar"; placeholder = "search tweaks"; ObjectID = "ZSb-an-rfY"; */
+"ZSb-an-rfY.placeholder" = "search tweaks";
+
+/* Class = "UILabel"; text = "Welcome to Cypher"; ObjectID = "ZeN-SV-BLq"; */
+"ZeN-SV-BLq.text" = "Welcome to Cypher";
+
+/* Class = "UIViewController"; title = "Repositoiries"; ObjectID = "aM1-ce-0xV"; */
+"aM1-ce-0xV.title" = "Repositoiries";
+
+/* Class = "UILabel"; text = "Install imediately"; ObjectID = "ah4-yr-IHw"; */
+"ah4-yr-IHw.text" = "Install imediately";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "b3A-iA-tfX"; */
+"b3A-iA-tfX.title" = "Settings";
+
+/* Class = "UILabel"; text = "(DD-MM-YYYY)"; ObjectID = "b8a-7O-6ir"; */
+"b8a-7O-6ir.text" = "(DD-MM-YYYY)";
+
+/* Class = "UITabBarItem"; title = "Themes"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Themes";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "cpr-cZ-ncr"; */
+"cpr-cZ-ncr.title" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "d2B-Sh-Cs0"; */
+"d2B-Sh-Cs0.normalTitle" = "Remove";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "d8k-oc-6ZG"; */
+"d8k-oc-6ZG.placeholder" = "password";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "fve-3o-NSx"; */
+"fve-3o-NSx.title" = "Home";
+
+/* Class = "UILabel"; text = "Repositories"; ObjectID = "gt9-aF-DY4"; */
+"gt9-aF-DY4.text" = "Repositories";
+
+/* Class = "UIButton"; normalTitle = "ACTION"; ObjectID = "hDw-2L-Tjp"; */
+"hDw-2L-Tjp.normalTitle" = "ACTION";
+
+/* Class = "UITableViewSection"; headerTitle = "Toggles"; ObjectID = "hrb-Yy-kI2"; */
+"hrb-Yy-kI2.headerTitle" = "Toggles";
+
+/* Class = "UILabel"; text = "Version 1.0.0"; ObjectID = "kPn-d7-e1Q"; */
+"kPn-d7-e1Q.text" = "Version 1.0.0";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "oEN-sL-4TS"; */
+"oEN-sL-4TS.title" = "Settings";
+
+/* Class = "UIViewController"; title = "Credits"; ObjectID = "oh5-7H-f9E"; */
+"oh5-7H-f9E.title" = "Credits";
+
+/* Class = "UILabel"; text = "https://this.reponame.example/"; ObjectID = "rGU-Nf-Tb5"; */
+"rGU-Nf-Tb5.text" = "https://this.reponame.example/";
+
+/* Class = "UITextField"; placeholder = "username"; ObjectID = "rWT-EA-ZcR"; */
+"rWT-EA-ZcR.placeholder" = "username";
+
+/* Class = "UILabel"; text = "Welcome!"; ObjectID = "tDJ-8H-dmG"; */
+"tDJ-8H-dmG.text" = "Welcome!";
+
+/* Class = "UIButton"; normalTitle = "Log me in"; ObjectID = "x1X-I1-MgS"; */
+"x1X-I1-MgS.normalTitle" = "Log me in";
+
+/* Class = "UISearchBar"; placeholder = "search all"; ObjectID = "xRO-Y1-eJR"; */
+"xRO-Y1-eJR.placeholder" = "search all";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "yl6-86-9BI"; */
+"yl6-86-9BI.title" = "Settings";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "ytZ-KT-gfZ"; */
+"ytZ-KT-gfZ.text" = "Login";
