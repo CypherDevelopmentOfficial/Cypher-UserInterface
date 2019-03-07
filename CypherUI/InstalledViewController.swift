@@ -9,6 +9,8 @@
 import UIKit
 
 class InstalledViewController: UIViewController {
+    // This will require much work in the future. We need to keep it sterile, while connected to Cydia.
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

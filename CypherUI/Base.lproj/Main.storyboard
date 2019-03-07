@@ -1107,7 +1107,7 @@
         <!--Settings-->
         <scene sceneID="DuT-dz-8nq">
             <objects>
-                <tableViewController title="Settings" id="6DC-mQ-Cje" customClass="SettingsViewController" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Settings" id="6DC-mQ-Cje" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="vJF-rM-yJv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1299,10 +1299,6 @@
                             <outlet property="delegate" destination="6DC-mQ-Cje" id="c0J-QI-aaA"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <outlet property="SwitchCel" destination="bNb-cd-qw2" id="Syo-l6-drs"/>
-                        <outlet property="SwitchInstallment" destination="Bht-r9-8Up" id="9lS-Dz-cAj"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lH8-TT-gwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

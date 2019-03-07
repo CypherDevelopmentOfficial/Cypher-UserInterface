@@ -27,7 +27,6 @@
 		BCBA0C29215182B7005163F0 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C28215182B7005163F0 /* AppViewController.swift */; };
 		BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2A2151841B005163F0 /* TweakViewController.swift */; };
 		BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2D21518532005163F0 /* InstalledViewController.swift */; };
-		BCBA0C3021518681005163F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2F21518681005163F0 /* SettingsViewController.swift */; };
 		BCD3F2D021F282130024B86D /* Feature.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3F2CF21F27FE20024B86D /* Feature.xib */; };
 		BCD3F30321F283120024B86D /* FeaturedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3F30221F283120024B86D /* FeaturedBannerView.swift */; };
 		C608073A6EDA2420F47260E5 /* Pods_CypherUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4FBA0DEBE2318C6019B909 /* Pods_CypherUIUITests.framework */; };
@@ -85,7 +84,6 @@
 		BCBA0C28215182B7005163F0 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		BCBA0C2A2151841B005163F0 /* TweakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakViewController.swift; sourceTree = "<group>"; };
 		BCBA0C2D21518532005163F0 /* InstalledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledViewController.swift; sourceTree = "<group>"; };
-		BCBA0C2F21518681005163F0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BCBA0C3121550311005163F0 /* CypherUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CypherUI-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCD3F2CF21F27FE20024B86D /* Feature.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Feature.xib; path = "/Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/Feature.xib"; sourceTree = "<absolute>"; };
 		BCD3F30221F283120024B86D /* FeaturedBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedBannerView.swift; sourceTree = "<group>"; };
@@ -144,13 +142,13 @@
 			name = StoryControl;
 			sourceTree = "<group>";
 		};
-		BCAA905621EBA35000660070 /* InstalledUnderGroup */ = {
+		BCAA905621EBA35000660070 /* FutureWorks */ = {
 			isa = PBXGroup;
 			children = (
 				BCAA905721EBA36F00660070 /* LoginPage.swift */,
 				BCAA905921EBA43300660070 /* Repos.swift */,
 			);
-			name = InstalledUnderGroup;
+			name = FutureWorks;
 			sourceTree = "<group>";
 		};
 		BCBA0BEC21518254005163F0 = {
@@ -217,9 +215,8 @@
 				BCBA0C28215182B7005163F0 /* AppViewController.swift */,
 				BCBA0BFC21518254005163F0 /* ThemeViewController.swift */,
 				BCBA0C2D21518532005163F0 /* InstalledViewController.swift */,
-				BCBA0C2F21518681005163F0 /* SettingsViewController.swift */,
 				BC70F51921FE001D00BC785C /* StoryControl */,
-				BCAA905621EBA35000660070 /* InstalledUnderGroup */,
+				BCAA905621EBA35000660070 /* FutureWorks */,
 			);
 			name = BasicViewControllers;
 			sourceTree = "<group>";
@@ -309,7 +306,7 @@
 				TargetAttributes = {
 					BCBA0BF421518254005163F0 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -318,10 +315,12 @@
 					};
 					BCBA0C0A21518257005163F0 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = BCBA0BF421518254005163F0;
 					};
 					BCBA0C1521518257005163F0 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = BCBA0BF421518254005163F0;
 					};
 				};
@@ -476,7 +475,6 @@
 				BCBA0BFD21518254005163F0 /* ThemeViewController.swift in Sources */,
 				BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */,
 				BCBA0C29215182B7005163F0 /* AppViewController.swift in Sources */,
-				BCBA0C3021518681005163F0 /* SettingsViewController.swift in Sources */,
 				BCD3F30321F283120024B86D /* FeaturedBannerView.swift in Sources */,
 				BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */,
 				BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */,
@@ -676,7 +674,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -700,7 +698,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -720,7 +718,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypherUI.app/CypherUI";
 			};
@@ -741,7 +739,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CypherUI.app/CypherUI";
 			};
@@ -761,7 +759,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CypherUI;
 			};
@@ -781,7 +779,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CypherUI;
 			};
