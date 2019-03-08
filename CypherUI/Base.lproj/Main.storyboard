@@ -132,7 +132,7 @@
         <!--Repositoiries-->
         <scene sceneID="DEF-uP-H9I">
             <objects>
-                <viewController title="Repositoiries" id="aM1-ce-0xV" customClass="RepoViewController" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Repositoiries" id="aM1-ce-0xV" customClass="ManRepoSelector" customModule="CypherUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M4e-rS-KF6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -223,17 +223,20 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Y1a-gL-DlB" customClass="ManualRepositoiries">
-                                <rect key="frame" x="164" y="105" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZCn-11-SdO">
+                                <rect key="frame" x="174" y="115" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="EnableManual:" destination="aM1-ce-0xV" eventType="valueChanged" id="VLC-Wy-cdc"/>
+                                    <action selector="flipManual:" destination="aM1-ce-0xV" eventType="valueChanged" id="pnN-o4-WG8"/>
                                 </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NT7-L5-EX6"/>
                     </view>
+                    <connections>
+                        <outlet property="ManRepoSwitch" destination="ZCn-11-SdO" id="OiE-OW-iY2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZGE-fA-t1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

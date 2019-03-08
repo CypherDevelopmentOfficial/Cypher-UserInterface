@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C3ACD25CC8D1CB44C9A0698EA8A1DA4"
+               BlueprintIdentifier = "BAA805CDC48E64E74CA78D42BAA34A6A"
                BuildableName = "Pods_CypherUI.framework"
                BlueprintName = "Pods-CypherUI"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C3ACD25CC8D1CB44C9A0698EA8A1DA4"
+            BlueprintIdentifier = "BAA805CDC48E64E74CA78D42BAA34A6A"
             BuildableName = "Pods_CypherUI.framework"
             BlueprintName = "Pods-CypherUI"
             ReferencedContainer = "container:Pods.xcodeproj">

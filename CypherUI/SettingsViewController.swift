@@ -18,10 +18,6 @@ class SettingsViewController: UITableViewController {
         //This is all merely in teststage. P.S. This will probably have easier ways, but I rather finish up faster than learning how to implement it faster.
         
         UserDefaults.standard.set(sender.isOn, forKey: "SwitchCel");
-        
-        
-        
-        
         NSLog ("You clicked here! SwitchCel." )
     }
     @IBAction func changeSwitchInstallment(_ sender: UISwitch) {
@@ -40,21 +36,20 @@ class SettingsViewController: UITableViewController {
         
         SwitchCel.isOn = UserDefaults.standard.bool(forKey: "SwitchCel")
         SwitchInstallment.isOn = UserDefaults.standard.bool(forKey: "SwitchInstallment")
-        
-        
-        func CheckForUserInteraction() {
-            
-        }
        
-        //SwitchCel.addTarget(self, action: Selector(("stateChanged")), for: UIControl.Event.valueChanged)
         
-            //UserDefaults.standard.set(true, forKey: "SwitchCel")
-                
-            
-        
-        //UserDefaults.standard.set(true, forKey: "SwitchInstallment")
     }
 
 
 }
 
+class ManRepoSelector: UIViewController {
+    @IBOutlet weak var ManRepoSwitch: UISwitch!
+    @IBAction func flipManual(_ sender: UISwitch) {
+        UserDefaults.standard.set(sender.isOn, forKey: "modeManual")
+        
+    }
+    override func viewDidLoad() {
+        ManRepoSwitch.isOn = UserDefaults.standard.bool(forKey: "modeManual")
+    }
+}

@@ -11,14 +11,13 @@ import Foundation
 import UIKit
 import Accounts
 import Alamofire
-
+import KeychainAccess
 
 class LoginPage: UIViewController{
+    
 override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    let backButton = UIBarButtonItem(title: "Back", style:UIBarButtonItem.Style.plain, target: navigationController, action: nil)
-    navigationItem.leftBarButtonItem = backButton
     
     }
     
@@ -27,7 +26,6 @@ override func viewDidLoad() {
     // let URL_USER_LOGIN = " (whatever you want as servicehost.) "
     
     //// This is to store Vaulues
-    let defaultVaulues = UserDefaults.standard
     
     //// This is actually some UI Stuff that should work.
     @IBOutlet weak var labelMessage: UILabel!
@@ -35,10 +33,7 @@ override func viewDidLoad() {
     @IBOutlet weak var textFieldPassword: UITextField!
     
     @IBAction func buttonLogin(_ sender: UIButton) {
-        //let parameters: Parameters=[
-        //    "username":textFieldUserName.text!,
-        //    "password":textFieldPassword.text!
-        //]
+       // let UrAccChain = Keychain(service: ""
     }
     
     
