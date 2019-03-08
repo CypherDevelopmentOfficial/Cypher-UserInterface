@@ -12,7 +12,6 @@
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
 		BC59D565220E0E7100B840DC /* Testable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC59D564220E0E7100B840DC /* Testable.xib */; };
 		BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */; };
-		BC82825522306026002536AF /* SuperSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC82825422306026002536AF /* SuperSettings.bundle */; };
 		BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */; };
 		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
 		BCAA905A21EBA43300660070 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905921EBA43300660070 /* Repos.swift */; };
@@ -27,6 +26,7 @@
 		BCBA0C29215182B7005163F0 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C28215182B7005163F0 /* AppViewController.swift */; };
 		BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2A2151841B005163F0 /* TweakViewController.swift */; };
 		BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0C2D21518532005163F0 /* InstalledViewController.swift */; };
+		BCCEEC6122315B7A00EF9F9C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCEEC6022315B7A00EF9F9C /* SettingsViewController.swift */; };
 		BCD3F2D021F282130024B86D /* Feature.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD3F2CF21F27FE20024B86D /* Feature.xib */; };
 		BCD3F30321F283120024B86D /* FeaturedBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3F30221F283120024B86D /* FeaturedBannerView.swift */; };
 		C608073A6EDA2420F47260E5 /* Pods_CypherUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4FBA0DEBE2318C6019B909 /* Pods_CypherUIUITests.framework */; };
@@ -62,7 +62,6 @@
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
 		BC59D564220E0E7100B840DC /* Testable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Testable.xib; sourceTree = "<group>"; };
 		BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewWithConstantIcons.xib; sourceTree = "<group>"; };
-		BC82825422306026002536AF /* SuperSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SuperSettings.bundle; path = CypherUI/SuperSettings.bundle; sourceTree = SOURCE_ROOT; };
 		BC828257223061F2002536AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
 		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
@@ -85,6 +84,7 @@
 		BCBA0C2A2151841B005163F0 /* TweakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakViewController.swift; sourceTree = "<group>"; };
 		BCBA0C2D21518532005163F0 /* InstalledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledViewController.swift; sourceTree = "<group>"; };
 		BCBA0C3121550311005163F0 /* CypherUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CypherUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCCEEC6022315B7A00EF9F9C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BCD3F2CF21F27FE20024B86D /* Feature.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Feature.xib; path = "/Users/CyDevRD/Documents/Cypher-UserInterface/CypherUI/Feature.xib"; sourceTree = "<absolute>"; };
 		BCD3F30221F283120024B86D /* FeaturedBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedBannerView.swift; sourceTree = "<group>"; };
 		D6EB77451DA0C2D6B7F031EB /* Pods-CypherUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUI/Pods-CypherUI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +135,6 @@
 				BCBA0C0321518257005163F0 /* LaunchScreen.storyboard */,
 				BCBA0BFE21518254005163F0 /* Main.storyboard */,
 				BC59D564220E0E7100B840DC /* Testable.xib */,
-				BC82825422306026002536AF /* SuperSettings.bundle */,
 				BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */,
 				BCD3F2CF21F27FE20024B86D /* Feature.xib */,
 			);
@@ -215,6 +214,7 @@
 				BCBA0C28215182B7005163F0 /* AppViewController.swift */,
 				BCBA0BFC21518254005163F0 /* ThemeViewController.swift */,
 				BCBA0C2D21518532005163F0 /* InstalledViewController.swift */,
+				BCCEEC6022315B7A00EF9F9C /* SettingsViewController.swift */,
 				BC70F51921FE001D00BC785C /* StoryControl */,
 				BCAA905621EBA35000660070 /* FutureWorks */,
 			);
@@ -356,7 +356,6 @@
 				BC59D565220E0E7100B840DC /* Testable.xib in Resources */,
 				BCBA0C0021518254005163F0 /* Main.storyboard in Resources */,
 				BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */,
-				BC82825522306026002536AF /* SuperSettings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +481,7 @@
 				BCAA905A21EBA43300660070 /* Repos.swift in Sources */,
 				BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */,
 				BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */,
+				BCCEEC6122315B7A00EF9F9C /* SettingsViewController.swift in Sources */,
 				BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */,
 				BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */,
 			);

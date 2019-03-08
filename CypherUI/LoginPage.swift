@@ -5,7 +5,7 @@
 ////  Created by Team CypherDevelopment Remote Desktop on 18/09/2018.
 ////  Copyright © 2018 CyDev. All rights reserved.
 ////
-
+//// Just noticed the whole part here is garbage. I will be fixing this at a later date. this cant be used else User Accounts could leak.
 
 import Foundation
 import UIKit
