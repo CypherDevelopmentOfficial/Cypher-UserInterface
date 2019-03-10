@@ -236,6 +236,7 @@
                     </view>
                     <connections>
                         <outlet property="ManRepoSwitch" destination="ZCn-11-SdO" id="OiE-OW-iY2"/>
+                        <outlet property="RepoTable" destination="uzg-pR-o7e" id="gmA-FW-tTA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZGE-fA-t1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1209,6 +1210,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D7v-UR-6dR">
+                                                    <rect key="frame" x="146" y="4" width="49" height="31"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <connections>
+                                                        <action selector="TestChange:" destination="6DC-mQ-Cje" eventType="valueChanged" id="F2A-Xz-aEI"/>
+                                                    </connections>
+                                                </switch>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -1338,8 +1346,10 @@
                         </connections>
                     </tableView>
                     <connections>
+                        <outlet property="LoginRAccountViewer" destination="ytZ-KT-gfZ" id="PrU-aW-h9v"/>
                         <outlet property="SwitchCel" destination="yaA-gd-eaf" id="hnW-KH-Qkh"/>
                         <outlet property="SwitchInstallment" destination="Bht-r9-8Up" id="akl-6R-kPe"/>
+                        <outlet property="TempSwitch" destination="D7v-UR-6dR" id="0QE-j7-k8X"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lH8-TT-gwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
