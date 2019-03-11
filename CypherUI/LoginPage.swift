@@ -13,7 +13,7 @@ import Accounts
 import Alamofire
 import KeychainAccess
 
-class LoginPage: UIViewController{
+/*class LoginnPage: UIViewController{
     
 override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,33 +28,12 @@ override func viewDidLoad() {
     //// This is to store Vaulues
     
     //// This is actually some UI Stuff that should work.
-    @IBOutlet weak var labelMessage: UILabel!
-    @IBOutlet weak var textFieldUserName: UITextField!
-    @IBOutlet weak var textFieldPassword: UITextField!
-    
-    @IBAction func buttonLogin(_ sender: UIButton) {
-       // let UrAccChain = Keychain(service: ""
-    }
+
     
     
 }
-class ProfileViewController: UIViewController {
-    
-    ////This is just a label to get to see your system knows you.
-    @IBOutlet weak var labelUserName: UILabel!
-    
-    //// This is the button. Dont mess with it unless you know what it does. <0/
-    @IBAction func buttonLogout(_ sender: UIButton) {
-        //// removing values from the Default List
-        UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
-        UserDefaults.standard.synchronize()
-        
-        //// the switch to the Login Screen
-        let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "LoginPage") as! LoginPage
-        self.navigationController?.pushViewController(loginViewController, animated: true)
-        self.dismiss(animated: false, completion: nil)
-    }
-    
+
+
     
     
     
@@ -95,3 +74,4 @@ class ProfileViewController: UIViewController {
     
     
 }
+*/

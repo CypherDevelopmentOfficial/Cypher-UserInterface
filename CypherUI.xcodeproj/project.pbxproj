@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8B6823B174D17E1DC085FADE /* Pods_CypherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448E72B7A1854FC54DA2763 /* Pods_CypherUITests.framework */; };
-		BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC11B44E21A30AF500B15179 /* CustomSegue.swift */; };
 		BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55A95E2199DAF9001166CA /* BackBoardUI.swift */; };
 		BC59D565220E0E7100B840DC /* Testable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC59D564220E0E7100B840DC /* Testable.xib */; };
 		BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */; };
@@ -57,7 +56,7 @@
 		592F01311D8AEBE1AE84EEAF /* Pods-CypherUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUIUITests/Pods-CypherUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		87EDEB65B00361388AC6E2BA /* Pods-CypherUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CypherUIUITests/Pods-CypherUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9448E72B7A1854FC54DA2763 /* Pods_CypherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC11B44E21A30AF500B15179 /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		BC457E872236AA3B0092CF44 /* CypherUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CypherUI.entitlements; sourceTree = "<group>"; };
 		BC55A95E2199DAF9001166CA /* BackBoardUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBoardUI.swift; sourceTree = "<group>"; };
 		BC59D564220E0E7100B840DC /* Testable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Testable.xib; sourceTree = "<group>"; };
 		BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewWithConstantIcons.xib; sourceTree = "<group>"; };
@@ -172,9 +171,9 @@
 		BCBA0BF721518254005163F0 /* CypherUI */ = {
 			isa = PBXGroup;
 			children = (
+				BC457E872236AA3B0092CF44 /* CypherUI.entitlements */,
 				BCBA0BF821518254005163F0 /* AppDelegate.swift */,
 				BC55A95E2199DAF9001166CA /* BackBoardUI.swift */,
-				BC11B44E21A30AF500B15179 /* CustomSegue.swift */,
 				BCBA0C2C215184D2005163F0 /* BasicViewControllers */,
 				BCBA0C0121518257005163F0 /* Assets.xcassets */,
 				BCBA0C0621518257005163F0 /* Info.plist */,
@@ -299,7 +298,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = CyDev;
+				ORGANIZATIONNAME = CypherDev;
 				TargetAttributes = {
 					BCBA0BF421518254005163F0 = {
 						CreatedOnToolsVersion = 10.0;
@@ -307,6 +306,9 @@
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
 							};
 						};
 					};
@@ -478,7 +480,6 @@
 				BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */,
 				BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */,
 				BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */,
-				BC11B44F21A30AF500B15179 /* CustomSegue.swift in Sources */,
 				BCCEEC6122315B7A00EF9F9C /* SettingsViewController.swift in Sources */,
 				BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */,
 				BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */,
@@ -659,6 +660,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CypherUI/CypherUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJL8V68RC6;
 				INFOPLIST_FILE = CypherUI/Info.plist;
@@ -667,7 +669,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUI;
+				PRODUCT_BUNDLE_IDENTIFIER = org.CypherDev.Cypher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -683,6 +685,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CypherUI/CypherUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NJL8V68RC6;
 				INFOPLIST_FILE = CypherUI/Info.plist;
@@ -692,7 +695,7 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cypherdev.cypher.CypherUI;
+				PRODUCT_BUNDLE_IDENTIFIER = org.CypherDev.Cypher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CypherUI/CypherUI-Bridging-Header.h";
 				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -708,6 +711,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJL8V68RC6;
 				INFOPLIST_FILE = CypherUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -729,6 +733,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJL8V68RC6;
 				INFOPLIST_FILE = CypherUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -749,6 +754,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJL8V68RC6;
 				INFOPLIST_FILE = CypherUIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -769,6 +775,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJL8V68RC6;
 				INFOPLIST_FILE = CypherUIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
