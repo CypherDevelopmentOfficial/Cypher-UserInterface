@@ -12,7 +12,6 @@
 		BC59D565220E0E7100B840DC /* Testable.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC59D564220E0E7100B840DC /* Testable.xib */; };
 		BC70F51B21FE016700BC785C /* ScrollViewWithConstantIcons.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */; };
 		BC91F61521F0CAA9005CBE43 /* FeaturedBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */; };
-		BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAA905721EBA36F00660070 /* LoginPage.swift */; };
 		BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BF821518254005163F0 /* AppDelegate.swift */; };
 		BCBA0BFB21518254005163F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFA21518254005163F0 /* HomeViewController.swift */; };
 		BCBA0BFD21518254005163F0 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA0BFC21518254005163F0 /* ThemeViewController.swift */; };
@@ -62,7 +61,6 @@
 		BC70F51A21FE016700BC785C /* ScrollViewWithConstantIcons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewWithConstantIcons.xib; sourceTree = "<group>"; };
 		BC828257223061F2002536AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BC91F61421F0CAA9005CBE43 /* FeaturedBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedBanner.swift; sourceTree = "<group>"; };
-		BCAA905721EBA36F00660070 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		BCBA0BF521518254005163F0 /* CypherUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBA0BF821518254005163F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCBA0BFA21518254005163F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 		BCAA905621EBA35000660070 /* FutureWorks */ = {
 			isa = PBXGroup;
 			children = (
-				BCAA905721EBA36F00660070 /* LoginPage.swift */,
 			);
 			name = FutureWorks;
 			sourceTree = "<group>";
@@ -476,7 +473,6 @@
 				BC55A95F2199DAF9001166CA /* BackBoardUI.swift in Sources */,
 				BCBA0C29215182B7005163F0 /* AppViewController.swift in Sources */,
 				BCD3F30321F283120024B86D /* FeaturedBannerView.swift in Sources */,
-				BCAA905821EBA36F00660070 /* LoginPage.swift in Sources */,
 				BCBA0BF921518254005163F0 /* AppDelegate.swift in Sources */,
 				BCBA0C2E21518532005163F0 /* InstalledViewController.swift in Sources */,
 				BCBA0C2B2151841B005163F0 /* TweakViewController.swift in Sources */,

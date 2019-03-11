@@ -62,12 +62,22 @@ class SettingsViewController: UITableViewController {
 }
 
 
+// This is just to choose which Segue shall be used. This is because I am inable to write my own Custom Segue. Or I am just too Lazy to search for it. First I need everything to work; Afterwards I will worry about the rest.
 //
-//
-//
+//  Once again, Still written by John NemECis
 //
 //
 class SubDiversionView: UIViewController {
+    @IBOutlet weak var logMeOut: UIButton!
+    @IBAction func logOffPressed(_ sender: UIButton) {
+        if UserDefaults.standard.bool(forKey: "LoggedInUser") != false {
+            UserDefaults.standard.set(false, forKey: "LoggedInUser")
+        }
+        else { NSLog("why u tryna crash me?")}
+    }
+    
+    
+    
     func MOVENOW() {
         if UserDefaults.standard.bool(forKey: "LoggedInUser") == false {
             self.performSegue(withIdentifier: "gotoLogin", sender: nil)
@@ -81,9 +91,9 @@ class SubDiversionView: UIViewController {
     
     }
     override func viewDidLoad() {
-        super.viewDidLoad()
-        NSLog("I hate the fact it takes me this long to write ANYTHING")
         MOVENOW()
+       
+       
     }
     
 }
@@ -161,30 +171,34 @@ class LoginPage: UIViewController {
     @IBOutlet weak var textFieldPassword: UITextField!
     @IBAction func buttonLogin(_ sender: UIButton) {
         //// let UrAccChain = Keychain(service: "com.CypherDev.CypherUI")
+        UserDefaults.standard.set(textFieldUserName.text, forKey: "AccountToVerify")
+        if UserDefaults.standard.string(forKey: "AccountToVerify") == "" {
+           // print("You didnt do anything. There is no account name here")
+            NSLog("Either something went wrong, OR you just chose to keep this empty. Probably Option 1 huh?")
+            UserDefaults.standard.set(false, forKey:"LoggedInUser")
+        }
+        if UserDefaults.standard.string(forKey: "AccountToVerify") != "" {
+            //print("Verifying will be done, please wait. Password is just to fill space atm. Without in-app backend, we will ensure it works in other ways.")
+            NSLog("This means it breaks past this point. what shall it be?")
+            UserDefaults.standard.set(true, forKey:"LoggedInUser")
+            ////self.performSegue(withIdentifier: "gotoAccDetails2", sender: self)
+        }
     }
     
 }
-class ProfileViewController: UIViewController {
-    
-    // This is just a label to get to see your system knows you.
-    @IBOutlet weak var labelUserName: UILabel!
-    
-    // This is the button. Dont mess with it unless you know what it does. <0/
-    @IBAction func buttonLogout(_ sender: UIButton) {
-    // removing values from the Default List
-        UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
-        UserDefaults.standard.synchronize()
-        
-        // the switch to the Login Screen
-        let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "LoginPage") as! LoginPage
-        self.navigationController?.pushViewController(loginViewController, animated: true)
-        self.dismiss(animated: false, completion: nil)
+class AccDeets: UIViewController {
+ 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //  Typically, here is a huge quantity of my JunkCode which shall require a rewrite one day.
+        //  Oh, PS: Most Devs do not care anymore so I will never get new members in the team unless their NewBloods.
     }
 }
 
 
         
     
+
 
 
 

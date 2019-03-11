@@ -68,20 +68,24 @@
             </objects>
             <point key="canvasLocation" x="810" y="-1540"/>
         </scene>
-        <!--View Controller-->
+        <!--Acc Deets-->
         <scene sceneID="Tf6-NH-SnF">
             <objects>
-                <viewController id="S46-fQ-a8O" sceneMemberID="viewController">
+                <viewController id="S46-fQ-a8O" customClass="AccDeets" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DIN-Yq-KsC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vo8-7A-Zu8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FRG-na-9AD"/>
+                    <connections>
+                        <segue destination="49e-Tb-3d3" kind="presentation" identifier="REBORN" id="ct6-NG-fyg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ueT-bL-Awh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5257" y="-1619"/>
+            <point key="canvasLocation" x="5404" y="-1802"/>
         </scene>
         <!--Login-->
         <scene sceneID="5cI-Gv-81m">
@@ -109,6 +113,7 @@
                                 <state key="normal" title="Log me in"/>
                                 <connections>
                                     <action selector="buttonLogin:" destination="NSn-36-PIg" eventType="touchUpInside" id="UPR-Mu-Her"/>
+                                    <segue destination="S46-fQ-a8O" kind="show" id="ZxY-Po-XUe"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="tDJ-8H-dmG">
@@ -255,7 +260,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Done" id="i3L-yr-dfR">
                             <connections>
                                 <action selector="Done:" destination="aM1-ce-0xV" id="aee-Zp-7of"/>
-                                <segue destination="49e-Tb-3d3" kind="presentation" modalTransitionStyle="flipHorizontal" id="J2Z-4R-1mJ"/>
+                                <segue destination="49e-Tb-3d3" kind="presentation" identifier="ughREBORN" modalTransitionStyle="flipHorizontal" id="J2Z-4R-1mJ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Add" id="RSu-h4-HTX">
@@ -1223,13 +1228,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6U-FS-YNn">
+                                <rect key="frame" x="164" y="390" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="logOffPressed:" destination="MYE-6S-JCG" eventType="touchUpInside" id="UJi-qv-Ohv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="IV5-Jv-JPq"/>
                     </view>
                     <connections>
+                        <outlet property="logMeOut" destination="s6U-FS-YNn" id="bcN-5z-2zj"/>
                         <segue destination="NSn-36-PIg" kind="show" identifier="gotoLogin" id="aeF-lO-8bh"/>
-                        <segue destination="S46-fQ-a8O" kind="show" identifier="gotoAccDetails" id="QoI-UU-iEr"/>
+                        <segue destination="S46-fQ-a8O" kind="show" identifier="gotoAccDetails" id="yy0-lQ-PfO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yc7-0u-akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1495,5 +1509,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8Oh-g2-FUu"/>
+        <segue reference="ct6-NG-fyg"/>
+        <segue reference="ZxY-Po-XUe"/>
     </inferredMetricsTieBreakers>
 </document>
