@@ -109,17 +109,67 @@ class SubDiversionView: UIViewController {
 //
 
 class ManRepoSelector: UIViewController {
+    var yourRepoArray = [String]()
+    
     @IBOutlet weak var ManRepoSwitch: UISwitch!
     @IBAction func flipManual(_ sender: UISwitch) {
         UserDefaults.standard.set(sender.isOn, forKey: "modeManual")
         reloadInputViews()
     }
     @IBOutlet weak var RepoTable: UITableView!
-    // Here the function will be written to add repositories at a later date.
-    func AddMaRepo(){
-        NSLog("We are not ready for this last action YET")
-    }
     
+    
+    
+    // Here the function will be written to add repositories at a later date.
+    func AddMaRepo() {
+        //Step : 1
+        let alert = UIAlertController(title: "Add Repository", message: "We are not ready YET", preferredStyle: UIAlertController.Style.alert)
+        //Step : 2
+        let save = UIAlertAction(title: "Save", style: .default) { (alertAction) in
+            let textField = alert.textFields![0] as UITextField
+            let textField2 = alert.textFields![1] as UITextField
+            if textField.text != "" {
+                //Read TextFields text data
+                print(textField.text!)
+                print("TF 1 : \(textField.text!)")
+                
+            } else {
+                print("TF 1 is Empty...")
+            }
+            
+            if textField2.text != "" {
+                print(textField2.text!)
+                print("TF 2 : \(textField2.text!)")
+            } else {
+                print("TF 2 is Empty...")
+            }
+        }
+        
+        //Step : 3
+        //For first TF
+        alert.addTextField { (textField) in
+            textField.placeholder = "Enter your first name"
+            
+        }
+        //For second TF
+        alert.addTextField { (textField) in
+            textField.placeholder = "Enter your last name"
+            
+        }
+        
+        //Step : 4
+        alert.addAction(save)
+        //Cancel action
+        let cancel = UIAlertAction(title: "Cancel", style: .default) { (alertAction) in }
+        alert.addAction(cancel)
+        //OR single line action
+        //alert.addAction(UIAlertAction(title: "Cancel", style: .default) { (alertAction) in })
+        
+        self.present(alert, animated:true, completion: nil)
+        
+    }
+
+    @IBOutlet weak var addButton: UIBarButtonItem!
     
     @IBAction func addClicked(_ sender: Any) {
         AddMaRepo()
@@ -143,12 +193,10 @@ class ManRepoSelector: UIViewController {
         }
         // Here we will eventually see all further things.
         
-
-        
     
-        }
-  
         
+  
+    }
     
 }
 
@@ -186,12 +234,36 @@ class LoginPage: UIViewController {
     }
     
 }
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%///////////////////////////////////////
+///////////////////////////%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%///////////////////////////////////////
+////////////////////////%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%///////////////////////////////////////
+/////////////////////%%%%%%%//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////%%%%%%%%////+++++/////===========================____________///////////////////////////////////////
+//////////////////%%%%%%%%//+/////+///////////////////////////////////////////////////////////////////////////////////
+/////////////////%%%%%%%//+///////+///////////////////////////////////////////////////////////////////////////////////
+////////////////%%%%%%%%//+///////+///////////////////////////////////////////////////////////////////////////////////
+////////////////%%%%%%%%//+///////+///////////////////////////////////////////////////////////////////////////////////
+//////////////////%%%%%%%%//+/////+///////////////////////////////////////////////////////////////////////////////////
+///////////////////%%%%%%%%%//+++++///////////////////////////////////////////////////////////////////////////////////
+////////////////////%%%%%%%%%/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%///////////////////////////////////////
+////////////////////////%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%///////////////////////////////////////
+////////////////////////////%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%///////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ */
 class AccDeets: UIViewController {
- 
+    @IBOutlet var Welcomer: UILabel?
+    var WelcomeVar = "welcome"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //  Typically, here is a huge quantity of my JunkCode which shall require a rewrite one day.
         //  Oh, PS: Most Devs do not care anymore so I will never get new members in the team unless their NewBloods.
+        Welcomer?.text = WelcomeVar
     }
 }
 

@@ -107,21 +107,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="go" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="no" smartQuotesType="yes" textContentType="password"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1X-I1-MgS">
-                                <rect key="frame" x="158" y="354" width="59" height="28"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Log me in"/>
-                                <connections>
-                                    <action selector="buttonLogin:" destination="NSn-36-PIg" eventType="touchUpInside" id="UPR-Mu-Her"/>
-                                    <segue destination="S46-fQ-a8O" kind="show" id="ZxY-Po-XUe"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="tDJ-8H-dmG">
                                 <rect key="frame" x="145" y="132" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1X-I1-MgS">
+                                <rect key="frame" x="158" y="291" width="59" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Log me in"/>
+                                <connections>
+                                    <action selector="buttonLogin:" destination="NSn-36-PIg" eventType="touchUpInside" id="UPR-Mu-Her"/>
+                                    <segue destination="MYE-6S-JCG" kind="show" id="63m-Y6-Ff1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -134,7 +134,7 @@
                             <constraint firstItem="tDJ-8H-dmG" firstAttribute="leading" secondItem="R4I-gg-NHf" secondAttribute="leading" constant="145" id="v0L-zE-xRZ"/>
                             <constraint firstItem="x1X-I1-MgS" firstAttribute="centerX" secondItem="tDJ-8H-dmG" secondAttribute="centerX" id="x1W-TD-JIT"/>
                             <constraint firstItem="d8k-oc-6ZG" firstAttribute="top" secondItem="2QM-m2-gOk" secondAttribute="top" constant="218" id="xXo-Qw-rHB"/>
-                            <constraint firstItem="R4I-gg-NHf" firstAttribute="bottom" secondItem="x1X-I1-MgS" secondAttribute="bottom" constant="236" id="xv6-ou-fOh"/>
+                            <constraint firstItem="R4I-gg-NHf" firstAttribute="bottom" secondItem="x1X-I1-MgS" secondAttribute="bottom" constant="299" id="xv6-ou-fOh"/>
                             <constraint firstItem="d8k-oc-6ZG" firstAttribute="leading" secondItem="R4I-gg-NHf" secondAttribute="leading" constant="133" id="yo8-X9-HFb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="R4I-gg-NHf"/>
@@ -273,6 +273,7 @@
                     <connections>
                         <outlet property="ManRepoSwitch" destination="ZCn-11-SdO" id="OiE-OW-iY2"/>
                         <outlet property="RepoTable" destination="uzg-pR-o7e" id="gmA-FW-tTA"/>
+                        <outlet property="addButton" destination="RSu-h4-HTX" id="x1R-Ua-2c8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZGE-fA-t1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1212,7 +1213,7 @@
                                 <rect key="frame" x="0.0" y="214" width="375" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Dear User, I am so sorry for the delay!">
+                                    <fragment content="Checking for Account...">
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -1221,17 +1222,17 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This hopefully will be fixed soon." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1F-qi-yu7">
-                                <rect key="frame" x="63" y="309" width="248" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sending..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1F-qi-yu7">
+                                <rect key="frame" x="149" y="309" width="77" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6U-FS-YNn">
-                                <rect key="frame" x="164" y="390" width="46" height="30"/>
+                                <rect key="frame" x="163" y="390" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Log off"/>
                                 <connections>
                                     <action selector="logOffPressed:" destination="MYE-6S-JCG" eventType="touchUpInside" id="UJi-qv-Ohv"/>
                                 </connections>
@@ -1276,7 +1277,7 @@
                         <sections>
                             <tableViewSection id="rjj-uY-uhg">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="125" id="qyA-nP-0P9" customClass="SettingsIntro" customModule="CypherUI" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="125" id="qyA-nP-0P9" customClass="SettingsIntro" customModule="CypherUI" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="35" width="375" height="125"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qyA-nP-0P9" id="hH9-rJ-oQO">
@@ -1509,7 +1510,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8Oh-g2-FUu"/>
-        <segue reference="ct6-NG-fyg"/>
-        <segue reference="ZxY-Po-XUe"/>
+        <segue reference="tr8-sr-McM"/>
+        <segue reference="J2Z-4R-1mJ"/>
     </inferredMetricsTieBreakers>
 </document>
