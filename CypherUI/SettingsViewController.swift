@@ -127,34 +127,22 @@ class ManRepoSelector: UIViewController {
         //Step : 2
         let save = UIAlertAction(title: "Save", style: .default) { (alertAction) in
             let textField = alert.textFields![0] as UITextField
-            let textField2 = alert.textFields![1] as UITextField
             if textField.text != "" {
                 //Read TextFields text data
                 print(textField.text!)
-                print("TF 1 : \(textField.text!)")
-                
+                NSLog("TF : \(textField.text!)")
+                self.yourRepoArray.insert(textField.text!, at: 0)
             } else {
-                print("TF 1 is Empty...")
+                print("TF is Empty...")
             }
             
-            if textField2.text != "" {
-                print(textField2.text!)
-                print("TF 2 : \(textField2.text!)")
-            } else {
-                print("TF 2 is Empty...")
-            }
+            
         }
         
-        //Step : 3
-        //For first TF
+        //Step : adding textfield
+        
         alert.addTextField { (textField) in
-            textField.placeholder = "Enter your first name"
-            
-        }
-        //For second TF
-        alert.addTextField { (textField) in
-            textField.placeholder = "Enter your last name"
-            
+            textField.placeholder = "Enter Repo URL"
         }
         
         //Step : 4
@@ -192,8 +180,9 @@ class ManRepoSelector: UIViewController {
             RepoTable.isHidden = false
         }
         // Here we will eventually see all further things.
+       
         
-    
+        RepoTable.dataSource = yourRepoArray as? UITableViewDataSource
         
   
     }

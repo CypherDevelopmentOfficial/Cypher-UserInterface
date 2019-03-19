@@ -9,7 +9,7 @@
 import UIKit
 
 
-class AppViewController: UIViewController {
+class AppViewController: UITableViewController {
     @IBOutlet weak var AppsFeatureScrollView: UIScrollView!
     
      let featurea1 = ["DeveloperName":"CypherDevelopment", "RepoSource": "YourDevice", "PriceName": "FREE", "FeaturedName": "Cypher", "FeaturedBannerImage": "FutureIsHere", "Logo": "MainLogo"]

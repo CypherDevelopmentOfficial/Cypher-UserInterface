@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TweakViewController: UIViewController {
+class TweakViewController: UITableViewController {
    
     @IBOutlet weak var TweaksFeatureScrollView: UIScrollView!
     
