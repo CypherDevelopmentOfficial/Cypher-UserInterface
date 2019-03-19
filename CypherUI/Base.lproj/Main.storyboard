@@ -527,7 +527,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="    Top Free Themes" id="VlF-dA-XYT">
+                            <tableViewSection headerTitle="    Top Free Tweaks" id="VlF-dA-XYT">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="15h-1Q-ghX">
                                         <rect key="frame" x="0.0" y="351.5" width="375" height="90"/>
@@ -552,7 +552,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="    Top Paid Themes" id="e2H-p2-Iey">
+                            <tableViewSection headerTitle="    Top Paid Tweaks" id="e2H-p2-Iey">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="lS2-Br-lqa">
                                         <rect key="frame" x="0.0" y="497.5" width="375" height="90"/>
@@ -577,7 +577,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="    Fresh Themes" id="9by-nm-0xS">
+                            <tableViewSection headerTitle="    Fresh Tweaks" id="9by-nm-0xS">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="pJj-av-ng8">
                                         <rect key="frame" x="0.0" y="643.5" width="375" height="90"/>
@@ -645,6 +645,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="TweaksFeatureScrollView" destination="zuJ-9G-0vD" id="RQc-LC-Kfs"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7he-cK-C2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1634,7 +1637,7 @@
                             <viewLayoutGuide key="safeArea" id="rMg-kZ-itT"/>
                         </view>
                         <sections>
-                            <tableViewSection headerTitle="    Top-Shelfs" id="udz-GQ-fVs">
+                            <tableViewSection headerTitle="    Must-Haves" id="udz-GQ-fVs">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="dMd-Za-ChW">
                                         <rect key="frame" x="0.0" y="205.5" width="375" height="90"/>
@@ -1715,7 +1718,7 @@
                                         <rect key="frame" x="0.0" y="643.5" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KMt-Jg-rMs" id="Q5p-n8-1jp">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dpk-bV-Uai">
@@ -1734,7 +1737,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="    Our choices" id="FMN-ii-gH6">
+                            <tableViewSection headerTitle="    Other Package Managers" id="FMN-ii-gH6">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="90" id="DlQ-xS-rKe">
                                         <rect key="frame" x="0.0" y="789.5" width="375" height="90"/>
@@ -1791,7 +1794,7 @@
         <image name="Home" width="40" height="40"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ro8-TL-uE6"/>
+        <segue reference="sJa-DP-RXh"/>
         <segue reference="63m-Y6-Ff1"/>
         <segue reference="ct6-NG-fyg"/>
     </inferredMetricsTieBreakers>
