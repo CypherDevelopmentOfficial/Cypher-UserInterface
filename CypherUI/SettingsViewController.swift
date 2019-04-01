@@ -13,6 +13,10 @@ import Alamofire
 import Foundation
 import UIKit
 import Accounts
+import Photos
+
+
+
 
 
 class SettingsViewController: UITableViewController {
@@ -76,7 +80,13 @@ class SubDiversionView: UIViewController {
         else { NSLog("why u tryna crash me?")}
     }
     
-    
+    func CheckAccountrankAtDiscordBot() {
+        //This function is not ready yet, please be patient
+        /// checkvalues. still have to see how we will do these things.
+        //This will most likely link to a closed-source library so we can work on encryption. Or I will ask Niklas &/Or Kurtis to add something here.
+        // if UserRank == nil {
+        UserDefaults.standard.set("Regular User", forKey: "ranking")
+    }
     
     func MOVENOW() {
         if UserDefaults.standard.bool(forKey: "LoggedInUser") == false {
@@ -91,6 +101,8 @@ class SubDiversionView: UIViewController {
     
     }
     override func viewDidLoad() {
+        
+        CheckAccountrankAtDiscordBot()
         MOVENOW()
        
        
@@ -244,22 +256,106 @@ class LoginPage: UIViewController {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  */
-class AccDeets: UIViewController {
+class AccDeets: UITableViewController {
     @IBOutlet var Welcomer: UILabel?
-    var WelcomeVar = "welcome"
+    @IBOutlet var Ranking: UILabel?
+    @IBOutlet weak var userImage: UIImageView!
+    @IBAction func changeImageView() {
+        // This has hurt me way too much
+        AddMaUserImage()
+    }
+    
+    var UserName = UserDefaults.standard.string(forKey: "AccountToVerify")
+ 
+    var UserRank = UserDefaults.standard.string(forKey: "ranking")
+    
+ let imagePicker = UIImagePickerController()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //  Typically, here is a huge quantity of my JunkCode which shall require a rewrite one day.
         //  Oh, PS: Most Devs do not care anymore so I will never get new members in the team unless their NewBloods.
-        Welcomer?.text = WelcomeVar
+        Welcomer?.text = UserName
+        Ranking?.text = UserRank
+        self.userImage?.layer.cornerRadius = ((self.userImage?.frame.size.width)!) / 2;
+        self.userImage?.clipsToBounds = true;
+        self.userImage?.layer.borderWidth = 3.0
+        
+        
+        // Yet again, some other things...
+        
+        checkPermission()
+        imagePicker.delegate = self as? UIImagePickerControllerDelegate & UINavigationControllerDelegate
+        imagePicker.allowsEditing = false
+        imagePicker.sourceType = .photoLibrary
+        
+    }
+    
+    
+    // Using my "own" resources to rebuild this.
+    func AddMaUserImage() {
+        let alert = UIAlertController(title: "Choose how to add", message: "We are not ready YET", preferredStyle: UIAlertController.Style.actionSheet)
+        //First action. Dunno if it will work, but whatevs.
+        let photoLibraryImport = UIAlertAction(title: "Import from Photo Library", style: .default) { (alertAction) in self.present(self.imagePicker, animated: true, completion: nil)}
+                    alert.addAction(photoLibraryImport)
+        let userCameraForImage = UIAlertAction(title: "Use Camera instead is not made yet", style: .default) {
+            (alertaction) in
+        }
+                    alert.addAction(userCameraForImage)
+        let cancelButton = UIAlertAction(title: "cancel", style: .cancel)
+        
+                    alert.addAction(cancelButton)
+        
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : UIImage]) {
+            
+            if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] {
+                self.userImage.contentMode = .scaleAspectFit
+                self.userImage.image = pickedImage
+                NSLog("It seems my code passes this point. I dont really know where the issue really comes from now")
+            }
+            else {
+                NSLog("it seems my code sucks again and the image doesnt get set.")
+            }
+            dismiss(animated: true, completion: nil)
+        }
+        
+        
+        func imagePickerControllerDidCancel(_ picker: UIImagePickerController){
+            print("cancel is clicked")
+        }
+        self.present(alert, animated:true, completion: nil)
+        
+}
+    
+    // This Code snippet was found on StackOverflow. Link supplied below. Some parts were copied from this command, just to give the user the good experience we want to give. Credit is given so we would not have to worry. There were no copyrights added to the comment at date of adding, so this actually already is generous. Date: April 1st, 2019.
+    // Note to user: I dont care about April's Fools. If you think this is a joke, thats on you.
+    /*
+     https://stackoverflow.com/a/52459482
+     */
+    func checkPermission() {
+        let photoAuthorizationStatus = PHPhotoLibrary.authorizationStatus()
+        switch photoAuthorizationStatus {
+        case .authorized:
+            print("Access is granted by user")
+        case .notDetermined:
+            PHPhotoLibrary.requestAuthorization({
+                (newStatus) in
+                print("status is \(newStatus)")
+                if newStatus ==  PHAuthorizationStatus.authorized {
+                    /* do stuff here */
+                    print("success")
+                }
+            })
+            print("It is not determined until now")
+        case .restricted:
+            // same same
+            print("User do not have access to photo album.")
+        case .denied:
+            // same same
+            print("User has denied the permission.")
+        @unknown default:
+            print("What did just happen? it seems a unaccepted value jumped up.")
+        }
     }
 }
-
-
-        
-    
-
-
-
-
