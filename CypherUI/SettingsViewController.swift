@@ -122,7 +122,7 @@ class SubDiversionView: UIViewController {
 
 class ManRepoSelector: UIViewController {
     var yourRepoArray = [String]()
-    
+    var addedRepo: String = ""
     @IBOutlet weak var ManRepoSwitch: UISwitch!
     @IBAction func flipManual(_ sender: UISwitch) {
         UserDefaults.standard.set(sender.isOn, forKey: "modeManual")
@@ -143,7 +143,9 @@ class ManRepoSelector: UIViewController {
                 //Read TextFields text data
                 print(textField.text!)
                 NSLog("TF : \(textField.text!)")
-                self.yourRepoArray.insert(textField.text!, at: 0)
+                let newRepo: String = textField.text!
+                self.yourRepoArray.append(newRepo)
+                self.RepoTable.reloadData()
             } else {
                 print("TF is Empty...")
             }

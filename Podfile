@@ -7,7 +7,6 @@ target 'CypherUI' do
 
   # Pods for CypherUI
 pod 'Alamofire', '~> 5.0.0.beta.1'
-pod 'KeychainAccess'
   target 'CypherUITests' do
     inherit! :search_paths
     # Pods for testing
