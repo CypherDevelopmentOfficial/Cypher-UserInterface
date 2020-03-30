@@ -8,7 +8,7 @@
 //
 //  It seems to be that i cannot let the text of the Login Change if a value is changed. I will work on this soon.
 
-import KeychainAccess
+
 import Alamofire
 import Foundation
 import UIKit
@@ -86,6 +86,8 @@ class SubDiversionView: UIViewController {
         //This will most likely link to a closed-source library so we can work on encryption. Or I will ask Niklas &/Or Kurtis to add something here.
         // if UserRank == nil {
         UserDefaults.standard.set("Regular User", forKey: "ranking")
+        // if
+        
     }
     
     func MOVENOW() {
@@ -121,8 +123,11 @@ class SubDiversionView: UIViewController {
 //
 
 class ManRepoSelector: UIViewController {
-    var yourRepoArray = [String]()
-    var addedRepo: String = ""
+    public var yourRepoArray = [String]()
+    
+    
+    
+    var newRepo: String = ""
     @IBOutlet weak var ManRepoSwitch: UISwitch!
     @IBAction func flipManual(_ sender: UISwitch) {
         UserDefaults.standard.set(sender.isOn, forKey: "modeManual")
@@ -130,10 +135,10 @@ class ManRepoSelector: UIViewController {
     }
     @IBOutlet weak var RepoTable: UITableView!
     
-    
-    
+ 
     // Here the function will be written to add repositories at a later date.
     func AddMaRepo() {
+        
         //Step : 1
         let alert = UIAlertController(title: "Add Repository", message: "We are not ready YET", preferredStyle: UIAlertController.Style.alert)
         //Step : 2
@@ -144,8 +149,13 @@ class ManRepoSelector: UIViewController {
                 print(textField.text!)
                 NSLog("TF : \(textField.text!)")
                 let newRepo: String = textField.text!
+                self.yourRepoArray = UserDefaults.standard.stringArray(forKey: "SavedRepoArray")!
                 self.yourRepoArray.append(newRepo)
-                self.RepoTable.reloadData()
+                NSLog ("the complete list is now: \(self.yourRepoArray)")
+                UserDefaults.standard.set(self.yourRepoArray, forKey: "SavedRepoArray")
+                // If im correct this should save the Array permanently.
+                
+                NSLog ("getting info from \(String(describing: UserDefaults.standard.stringArray(forKey: "SavedRepoArray")))")
             } else {
                 print("TF is Empty...")
             }
@@ -193,8 +203,10 @@ class ManRepoSelector: UIViewController {
         if UserDefaults.standard.bool(forKey: "modeManual") == true {
             RepoTable.isHidden = false
         }
+     
+        
         // Here we will eventually see all further things.
-       
+       //// Can i get some help in here?
         
         RepoTable.dataSource = yourRepoArray as? UITableViewDataSource
         
@@ -360,4 +372,44 @@ class AccDeets: UITableViewController {
             print("What did just happen? it seems a unaccepted value jumped up.")
         }
     }
+}
+
+
+class RepoTable: UITableView {
+}
+class RepoListCell: UITableViewCell {
+  //wow, it seems i added some outlets! im becoming salty thanks to my own work...
+    @IBOutlet weak var RepoLink: UILabel!
+    @IBOutlet weak var RepoStatus: UILabel!
+    @IBOutlet weak var RepoName: UILabel!
+    @IBOutlet weak var RepoLogo: UIImageView!
+    
+    
+    @IBAction func userActionRemove(_ sender: UIButton) { Remove()
+    }
+    @IBAction func userActionReport(_ sender: UIButton) { Report()
+    }
+    @IBAction func userActionRefresh(_ sender: UIButton) { Refresh()
+    }
+    
+    
+    
+    
+    
+    
+    // Function Work
+    
+    func Report() {
+        
+    }
+    
+    func Refresh() {
+        
+    }
+    
+    func Remove() {
+        
+    }
+    
+    
 }
